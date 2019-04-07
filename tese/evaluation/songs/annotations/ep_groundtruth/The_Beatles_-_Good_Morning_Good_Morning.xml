@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_Good_Morning_Good_Morning">
+      <title>Good Morning Good Morning</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="161">02:41</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:11:732" start_sec="0.0000000" end_sec="11.7324480"/>
+    <segment label="verse" start="00:11:732" end="00:33:872" start_sec="11.7324480" end_sec="33.8726750">
+      <alt_label>verse_A</alt_label>
+    </segment>
+    <segment label="verse" start="00:33:872" end="00:43:152" start_sec="33.8726750" end_sec="43.1521804">
+      <alt_label>verse_B</alt_label>
+    </segment>
+    <segment label="bridge" start="00:43:152" end="00:54:666" start_sec="43.1521804" end_sec="54.6661450"/>
+    <segment label="verse" start="00:54:666" end="01:16:876" start_sec="54.6661450" end_sec="76.8760310">
+      <alt_label>verse_A</alt_label>
+    </segment>
+    <segment label="verse" start="01:16:876" end="01:25:734" start_sec="76.8760310" end_sec="85.7344440">
+      <alt_label>verse_B</alt_label>
+      <alt_label>solo</alt_label>
+    </segment>
+    <segment label="bridge" start="01:25:734" end="01:37:518" start_sec="85.7344440" end_sec="97.5185710"/>
+    <segment label="verse" start="01:37:518" end="01:59:623" start_sec="97.5185710" end_sec="119.6239680">
+      <alt_label>verse_A</alt_label>
+    </segment>
+    <segment label="outro" start="01:59:623" end="02:41:222" start_sec="119.6239680" end_sec="161.2228863"/>
+  </segmentation>
+</SegmXML>

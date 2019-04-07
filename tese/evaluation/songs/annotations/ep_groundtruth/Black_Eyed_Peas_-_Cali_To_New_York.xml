@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Black_Eyed_Peas_-_Cali_To_New_York">
+      <title>Cali To New York</title>
+      <artist>Black Eyed Peas</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="288">04:47</duration>
+    <genre>HipHop/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+      <done_by timestamp="2007-04-19" note="verse #2 as supersegment including break">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:10:889" start_sec="0" end_sec="10.889804888"/>
+    <segment label="verse" start="00:10:889" end="00:54:334" start_sec="10.889804888" end_sec="54.334693888"/>
+    <segment label="chorus" start="00:54:334" end="01:14:971" start_sec="54.334693888" end_sec="74.971428544"/>
+    <segment label="verse" start="01:14:971" end="02:01:338" start_sec="74.971428544" end_sec="121.338775520">
+	    <segment label="verse" start="01:14:971" end="01:57:237" start_sec="74.971428544" end_sec="117.237551024"/>
+	    <segment label="break" start="01:57:237" end="02:01:338" start_sec="117.237551024" end_sec="121.338775520"/>
+    </segment>
+    <segment label="chorus" start="02:01:338" end="02:22:236" start_sec="121.338775520" end_sec="142.236734688"/>
+    <segment label="break" start="02:22:236" end="02:41:697" start_sec="142.236734688" end_sec="161.697959168"/>
+    <segment label="verse" start="02:41:697" end="03:24:016" start_sec="161.697959168" end_sec="204.016326530"/>
+    <segment label="chorus" start="03:24:016" end="03:55:102" start_sec="204.016326530" end_sec="235.102040816"/>
+    <segment label="outro" start="03:55:102" end="04:05:289" start_sec="235.102040816" end_sec="245.289795936"/>
+    <segment label="coda" start="04:05:289" end="04:47:950" start_sec="245.289795936" end_sec="287.950657596"/>
+  </segmentation>
+</SegmXML>

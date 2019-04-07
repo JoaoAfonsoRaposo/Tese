@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Little_Child">
+      <title>Little Child</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="108">01:48</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:497" end="00:06:606" start_sec="0.4978379" end_sec="6.6067780"/>
+    <segment label="verse" start="00:06:606" end="00:19:412" start_sec="6.6067780" end_sec="19.4125830"/>
+    <segment label="verse" start="00:19:412" end="00:32:113" start_sec="19.4125830" end_sec="32.1138980"/>
+    <segment label="bridge" start="00:32:113" end="00:41:359" start_sec="32.1138980" end_sec="41.3598110"/>
+    <segment label="verse" start="00:41:359" end="00:54:196" start_sec="41.3598110" end_sec="54.1960750"/>
+    <segment label="break" start="00:54:196" end="01:13:141" start_sec="54.1960750" end_sec="73.1420000">
+      <alt_label>solo</alt_label>
+    </segment>
+    <segment label="bridge" start="01:13:141" end="01:22:559" start_sec="73.1420000" end_sec="82.5592500"/>
+    <segment label="verse" start="01:22:559" end="01:35:190" start_sec="82.5592500" end_sec="95.1909050"/>
+    <segment label="outro" start="01:35:190" end="01:42:831" start_sec="95.1909050" end_sec="102.8311579"/>
+  </segmentation>
+</SegmXML>

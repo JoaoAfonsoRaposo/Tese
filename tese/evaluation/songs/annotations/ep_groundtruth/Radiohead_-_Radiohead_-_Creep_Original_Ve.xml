@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Radiohead_-_Radiohead_-_Creep_Original_Ve">
+      <title>Creep</title>
+      <artist>Radiohead</artist>
+      <album year="">Pablo Honey</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="236">03:55</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:20:160" start_sec="0.0000000" end_sec="20.1607219"/>
+    <segment label="verse" start="00:20:160" end="00:40:738" start_sec="20.1607219" end_sec="40.7385621"/>
+    <segment label="verse" start="00:40:738" end="01:01:246" start_sec="40.7385621" end_sec="61.2468827"/>
+    <segment label="chorus" start="01:01:246" end="01:22:561" start_sec="61.2468827" end_sec="82.5613610"/>
+    <segment label="verse" start="01:22:561" end="01:43:456" start_sec="82.5613610" end_sec="103.4564170"/>
+    <segment label="verse" start="01:43:456" end="02:04:370" start_sec="103.4564170" end_sec="124.3703400"/>
+    <segment label="chorus" start="02:04:370" end="02:25:487" start_sec="124.3703400" end_sec="145.4878000"/>
+    <segment label="chorus" start="02:25:487" end="02:46:075" start_sec="145.4878000" end_sec="166.0750110">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="chorus" start="02:46:075" end="03:06:807" start_sec="166.0750110" end_sec="186.8072560">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="verse" start="03:06:807" end="03:27:377" start_sec="186.8072560" end_sec="207.3773565">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="verse" start="03:27:377" end="03:47:071" start_sec="207.3773565" end_sec="227.0716391">
+      <alt_label>verse2</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

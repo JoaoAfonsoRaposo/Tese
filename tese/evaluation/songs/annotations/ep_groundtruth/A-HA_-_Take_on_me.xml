@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="A-HA_-_Take_on_me">
+      <title>Take on me</title>
+      <artist>A-HA</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="221">03:41</duration>
+    <genre>Pop/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:16:525" start_sec="0.0000000" end_sec="16.5251444">
+      <alt_label>intro_drum</alt_label>
+    </segment>
+    <segment label="intro" start="00:16:525" end="00:33:666" start_sec="16.5251444" end_sec="33.6668986"/>
+    <segment label="verse" start="00:33:666" end="00:50:931" start_sec="33.6668986" end_sec="50.9319749"/>
+    <segment label="chorus" start="00:50:931" end="01:13:376" start_sec="50.9319749" end_sec="73.3765739"/>
+    <segment label="verse" start="01:13:376" end="01:30:579" start_sec="73.3765739" end_sec="90.5799892"/>
+    <segment label="chorus" start="01:30:579" end="01:53:271" start_sec="90.5799892" end_sec="113.2712322"/>
+    <segment label="bridge" start="01:53:271" end="02:11:396" start_sec="113.2712322" end_sec="131.3960090"/>
+    <segment label="break_synth" start="02:11:396" end="02:15:962" start_sec="131.3960090" end_sec="135.9624752"/>
+    <segment label="intro" start="02:15:962" end="02:32:487" start_sec="135.9624752" end_sec="152.4876196"/>
+    <segment label="verse" start="02:32:487" end="02:49:321" start_sec="152.4876196" end_sec="169.3210689"/>
+    <segment label="chorus" start="02:49:321" end="03:30:301" start_sec="169.3210689" end_sec="210.3015870"/>
+  </segmentation>
+</SegmXML>

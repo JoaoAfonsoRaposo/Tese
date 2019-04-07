@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc08_-_Fevers_-_Jinsei_konnamono.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="192">03:12</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:050" end="00:09:513" start_sec="0.05" end_sec="9.513" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:09:513" end="00:42:821" start_sec="9.513" end_sec="42.821" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="00:42:821" end="01:13:769" start_sec="42.821" end_sec="73.769" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:13:769" end="01:47:075" start_sec="73.769" end_sec="107.075" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="01:47:075" end="02:18:017" start_sec="107.075" end_sec="138.017" instrumental="NA" fade="NA"/>
+    <segment label="solo" start="02:18:017" end="02:32:428" start_sec="138.017" end_sec="152.428" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="02:32:428" end="03:01:000" start_sec="152.428" end_sec="181" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

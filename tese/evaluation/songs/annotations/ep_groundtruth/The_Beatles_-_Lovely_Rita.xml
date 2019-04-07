@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_Lovely_Rita">
+      <title>Lovely Rita</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="162">02:42</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:22:169" start_sec="0.0000000" end_sec="22.1698180"/>
+    <segment label="verse" start="00:22:169" end="00:33:199" start_sec="22.1698180" end_sec="33.1992970"/>
+    <segment label="bridge" start="00:33:199" end="00:52:460" start_sec="33.1992970" end_sec="52.4602490"/>
+    <segment label="verse" start="00:52:460" end="01:11:756" start_sec="52.4602490" end_sec="71.7560310"/>
+    <segment label="verse" start="01:11:756" end="01:22:739" start_sec="71.7560310" end_sec="82.7390700">
+      <alt_label>verse_piano</alt_label>
+      <alt_label>solo</alt_label>
+    </segment>
+    <segment label="bridge" start="01:22:739" end="01:41:825" start_sec="82.7390700" end_sec="101.8258730"/>
+    <segment label="verse" start="01:41:825" end="01:50:068" start_sec="101.8258730" end_sec="110.0689560"/>
+    <segment label="outro" start="01:50:068" end="02:11:744" start_sec="110.0689560" end_sec="131.7447840">
+      <alt_label>outro_A</alt_label>
+    </segment>
+    <segment label="outro" start="02:11:744" end="02:42:046" start_sec="131.7447840" end_sec="162.0462336">
+      <alt_label>outro_B</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

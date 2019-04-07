@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Money">
+      <title>Money</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="168">02:47</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:459" end="00:15:027" start_sec="0.4595427" end_sec="15.0270290"/>
+    <segment label="verse" start="00:15:027" end="00:21:842" start_sec="15.0270290" end_sec="21.8424708"/>
+    <segment label="chorus" start="00:21:842" end="00:37:132" start_sec="21.8424708" end_sec="37.1324260"/>
+    <segment label="verse" start="00:37:132" end="00:43:933" start_sec="37.1324260" end_sec="43.9330978"/>
+    <segment label="chorus" start="00:43:933" end="00:59:423" start_sec="43.9330978" end_sec="59.4235820"/>
+    <segment label="verse" start="00:59:423" end="01:06:454" start_sec="59.4235820" end_sec="66.4542358"/>
+    <segment label="chorus" start="01:06:454" end="01:21:865" start_sec="66.4542358" end_sec="81.8656690"/>
+    <segment label="break" start="01:21:865" end="01:36:749" start_sec="81.8656690" end_sec="96.7496600"/>
+    <segment label="verse" start="01:36:749" end="01:43:828" start_sec="96.7496600" end_sec="103.8287152"/>
+    <segment label="chorus" start="01:43:828" end="01:59:203" start_sec="103.8287152" end_sec="119.2033560"/>
+    <segment label="chorus" start="01:59:203" end="02:21:599" start_sec="119.2033560" end_sec="141.5990020">
+      <alt_label>chorusB</alt_label>
+    </segment>
+    <segment label="chorus" start="02:21:599" end="02:46:053" start_sec="141.5990020" end_sec="166.0536185">
+      <alt_label>chorusB</alt_label>
+      <alt_label>outro</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

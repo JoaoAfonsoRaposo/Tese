@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Please_Mister_Postman">
+      <title>Please Mister Postman</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="157">02:36</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:412" end="00:08:367" start_sec="0.4120000" end_sec="8.3675060"/>
+    <segment label="chorus" start="00:08:367" end="00:23:855" start_sec="8.3675060" end_sec="23.8552160">
+      <alt_label>chorusA</alt_label>
+    </segment>
+    <segment label="verse" start="00:23:855" end="00:39:389" start_sec="23.8552160" end_sec="39.3893650"/>
+    <segment label="verse" start="00:39:389" end="00:55:074" start_sec="39.3893650" end_sec="55.0744450"/>
+    <segment label="chorus" start="00:55:074" end="01:10:643" start_sec="55.0744450" end_sec="70.6434240">
+      <alt_label>chorusA</alt_label>
+    </segment>
+    <segment label="verse" start="01:10:643" end="01:26:316" start_sec="70.6434240" end_sec="86.3168940"/>
+    <segment label="chorus" start="01:26:316" end="01:42:083" start_sec="86.3168940" end_sec="102.0832430">
+      <alt_label>chorusA</alt_label>
+    </segment>
+    <segment label="chorus" start="01:42:083" end="01:57:814" start_sec="102.0832430" end_sec="117.8147620">
+      <alt_label>chorusB</alt_label>
+    </segment>
+    <segment label="chorus" start="01:57:814" end="02:13:511" start_sec="117.8147620" end_sec="133.5114520">
+      <alt_label>chorusB</alt_label>
+    </segment>
+    <segment label="chorus" start="02:13:511" end="02:30:338" start_sec="133.5114520" end_sec="150.3388933">
+      <alt_label>chorusB</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

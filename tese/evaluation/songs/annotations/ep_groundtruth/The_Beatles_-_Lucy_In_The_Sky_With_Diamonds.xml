@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_Lucy_In_The_Sky_With_Diamonds">
+      <title>Lucy In The Sky With Diamonds</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="209">03:28</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:00:000" end="00:06:144" start_sec="0.0000000" end_sec="6.1448290"/>
+    <segment label="Verse" start="00:06:144" end="00:32:453" start_sec="6.1448290" end_sec="32.4530380"/>
+    <segment label="Bridge" start="00:32:453" end="00:50:506" start_sec="32.4530380" end_sec="50.5065530">
+    	<remark>bridge different from chorus!</remark>
+    </segment>
+    <segment label="chorus" start="00:50:506" end="01:08:467" start_sec="50.5065530" end_sec="68.4671880"/>
+    <segment label="Verse" start="01:08:467" end="01:33:637" start_sec="68.4671880" end_sec="93.6376190"/>
+    <segment label="Bridge" start="01:33:637" end="01:51:064" start_sec="93.6376190" end_sec="111.0641950">
+    	<remark>bridge different from chorus!</remark>
+    </segment>
+    <segment label="chorus" start="01:51:064" end="02:08:931" start_sec="111.0641950" end_sec="128.9319500"/>
+    <segment label="Verse" start="02:08:931" end="02:33:951" start_sec="128.9319500" end_sec="153.9514510"/>
+    <segment label="chorus" start="02:33:951" end="02:53:711" start_sec="153.9514510" end_sec="173.7116320"/>
+    <segment label="chorus" start="02:53:711" end="03:13:355" start_sec="173.7116320" end_sec="193.3557140"/>
+    <segment label="outro" start="03:13:355" end="03:23:933" start_sec="193.3557140" end_sec="203.9332385">
+      <alt_label>chorus</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

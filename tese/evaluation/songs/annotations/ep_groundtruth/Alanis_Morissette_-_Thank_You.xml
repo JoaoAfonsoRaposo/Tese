@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Alanis_Morissette_-_Thank_You">
+      <title>Thank You</title>
+      <artist>Alanis Morissette</artist>
+      <album year="2005">The Collection</album>
+      <musicbrainz_trackID>5d55b746-c2b9-43db-9aa1-e348c38a53a6</musicbrainz_trackID>
+      <duration duration_sec="258">04:18</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:10:423" start_sec="0.0000000" end_sec="10.4234920"/>
+    <segment label="intro" start="00:10:423" end="00:20:843" start_sec="10.4234920" end_sec="20.8432650">
+      <alt_label>intro_voice</alt_label>
+    </segment>
+    <segment label="intro" start="00:20:843" end="00:31:298" start_sec="20.8432650" end_sec="31.2989570">
+      <alt_label>intro_voice</alt_label>
+    </segment>
+    <segment label="verse" start="00:31:298" end="00:41:699" start_sec="31.2989570" end_sec="41.6996830"/>
+    <segment label="verse" start="00:41:699" end="00:52:225" start_sec="41.6996830" end_sec="52.2257600"/>
+    <segment label="chorus" start="00:52:225" end="01:02:582" start_sec="52.2257600" end_sec="62.5821320"/>
+    <segment label="chorus" start="01:02:582" end="01:13:003" start_sec="62.5821320" end_sec="73.0031750"/>
+    <segment label="verse" start="01:13:003" end="01:23:432" start_sec="73.0031750" end_sec="83.4322900"/>
+    <segment label="verse" start="01:23:432" end="01:33:683" start_sec="83.4322900" end_sec="93.6835997"/>
+    <segment label="verse" start="01:33:683" end="01:44:372" start_sec="93.6835997" end_sec="104.3728450"/>
+    <segment label="verse" start="01:44:372" end="01:54:787" start_sec="104.3728450" end_sec="114.7876640"/>
+    <segment label="chorus" start="01:54:787" end="02:05:094" start_sec="114.7876640" end_sec="125.0946940"/>
+    <segment label="chorus" start="02:05:094" end="02:15:620" start_sec="125.0946940" end_sec="135.6201360"/>
+    <segment label="chorus" start="02:15:620" end="02:26:015" start_sec="135.6201360" end_sec="146.0156010">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="chorus" start="02:26:015" end="02:36:451" start_sec="146.0156010" end_sec="156.4512470">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="verse" start="02:36:451" end="02:46:888" start_sec="156.4512470" end_sec="166.8885260"/>
+    <segment label="verse" start="02:46:888" end="02:57:326" start_sec="166.8885260" end_sec="177.3266210"/>
+    <segment label="intro" start="02:57:326" end="03:07:749" start_sec="177.3266210" end_sec="187.7497510">
+      <alt_label>intro_voice</alt_label>
+    </segment>
+    <segment label="intro" start="03:07:749" end="03:18:158" start_sec="187.7497510" end_sec="198.1582770">
+      <alt_label>intro_voice</alt_label>
+    </segment>
+    <segment label="chorus" start="03:18:158" end="03:28:611" start_sec="198.1582770" end_sec="208.6113380"/>
+    <segment label="chorus" start="03:28:611" end="03:39:070" start_sec="208.6113380" end_sec="219.0709300"/>
+    <segment label="chorus" start="03:39:070" end="03:49:460" start_sec="219.0709300" end_sec="229.4604080">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="chorus" start="03:49:460" end="03:59:968" start_sec="229.4604080" end_sec="239.9688890">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="chorus_instru" start="03:59:968" end="04:05:045" start_sec="239.9688890" end_sec="245.0451700" instrumental="true"/>
+  </segmentation>
+</SegmXML>

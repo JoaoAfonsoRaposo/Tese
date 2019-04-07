@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Spice_Girls_-_Wannabe">
+      <title>Wannabe</title>
+      <artist>Spice Girls</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="175">02:55</duration>
+    <genre>Rock/Pop/Dance/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:05:017" start_sec="0.0000000" end_sec="5.0175960"/>
+    <segment label="verse" start="00:05:017" end="00:18:131" start_sec="5.0175960" end_sec="18.1312470">
+      <segment label="part1" start="00:05:017" end="00:09:009" start_sec="5.0175960" end_sec="9.0096171"/>
+      <segment label="part1" start="00:09:009" end="00:13:201" start_sec="9.0096171" end_sec="13.2018471"/>
+      <segment label="iwanna" start="00:13:201" end="00:18:131" start_sec="13.2018471" end_sec="18.1312470"/>
+    </segment>
+    <segment label="trans" start="00:18:131" end="00:35:266" start_sec="18.1312470" end_sec="35.2662155"/>
+    <segment label="verse" start="00:35:266" end="00:44:270" start_sec="35.2662155" end_sec="44.2705670">
+      <segment label="part1" start="00:35:266" end="00:39:378" start_sec="35.2662155" end_sec="39.3781177"/>
+      <segment label="part1" start="00:39:378" end="00:44:270" start_sec="39.3781177" end_sec="44.2705670"/>
+    </segment>
+    <segment label="chorus" start="00:44:270" end="01:01:966" start_sec="44.2705670" end_sec="61.9664400"/>
+    <segment label="trans" start="01:01:966" end="01:19:169" start_sec="61.9664400" end_sec="79.1694330"/>
+    <segment label="verse" start="01:19:169" end="01:27:728" start_sec="79.1694330" end_sec="87.7284648">
+      <segment label="part1" start="01:19:169" end="01:23:039" start_sec="79.1694330" end_sec="83.0398519"/>
+      <segment label="iwanna" start="01:23:039" end="01:27:728" start_sec="83.0398519" end_sec="87.7284648"/>
+    </segment>
+    <segment label="chorus" start="01:27:728" end="01:45:343" start_sec="87.7284648" end_sec="105.3438550"/>
+    <segment label="verse" start="01:45:343" end="02:02:782" start_sec="105.3438550" end_sec="122.7822220">
+      <segment label="part1" start="01:45:343" end="01:49:843" start_sec="105.3438550" end_sec="109.8437806"/>
+      <segment label="part1" start="01:49:843" end="01:53:925" start_sec="109.8437806" end_sec="113.9256888"/>
+      <segment label="part1" start="01:53:925" end="01:57:603" start_sec="113.9256888" end_sec="117.6030835"/>
+      <segment label="part2" start="01:57:603" end="02:00:578" start_sec="117.6030835" end_sec="120.5786850"/>
+      <segment label="break" start="02:00:578" end="02:02:782" start_sec="120.5786850" end_sec="122.7822220"/>
+    </segment>
+    <segment label="chorus" start="02:02:782" end="02:20:235" start_sec="122.7822220" end_sec="140.2351020"/>
+    <segment label="chorus" start="02:20:235" end="02:37:682" start_sec="140.2351020" end_sec="157.6823580">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="verse" start="02:37:682" end="02:46:085" start_sec="157.6823580" end_sec="166.0852838" instrumental="true">
+      <alt_label>instrumental</alt_label>
+      <segment label="part1" start="02:37:682" end="02:46:085" start_sec="157.6823580" end_sec="166.0852838"/>
+    </segment>
+  </segmentation>
+</SegmXML>

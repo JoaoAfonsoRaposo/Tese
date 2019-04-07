@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_Fixing_A_Hole">
+      <title>Fixing A Hole</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="157">02:36</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:00:000" end="00:06:705" start_sec="0.0000000" end_sec="6.7053280"/>
+    <segment label="Verse" start="00:06:705" end="00:24:840" start_sec="6.7053280" end_sec="24.8401130"/>
+    <segment label="Verse" start="00:24:840" end="00:42:324" start_sec="24.8401130" end_sec="42.3247390"/>
+    <segment label="Bridge" start="00:42:324" end="00:59:495" start_sec="42.3247390" end_sec="59.4958950">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="Verse" start="00:59:495" end="01:16:609" start_sec="59.4958950" end_sec="76.6090020"/>
+    <segment label="Verse" start="01:16:609" end="01:33:257" start_sec="76.6090020" end_sec="93.2577090">
+      <alt_label>verse_guitar</alt_label>
+    </segment>
+    <segment label="Bridge" start="01:33:257" end="01:49:801" start_sec="93.2577090" end_sec="109.8019270">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="Verse" start="01:49:801" end="02:06:578" start_sec="109.8019270" end_sec="126.5783440"/>
+    <segment label="Outro" start="02:06:578" end="02:36:474" start_sec="126.5783440" end_sec="156.4742787"/>
+  </segmentation>
+</SegmXML>

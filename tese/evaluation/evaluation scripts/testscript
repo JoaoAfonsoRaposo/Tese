@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo Hello, worldzy!
+
+
+GTFILESPATH=$1
+ALGFILESPATH=$2
+ALGNAME=$3
+
+gtFiles=(${GTFILESPATH}*)
+algFiles=(${ALGFILESPATH}*)
+
+for ((i=0; i<${#algFiles[@]}; i++));
+do
+    python3 main.py "${algFiles[$i]}" "$ALGNAME" "${gtFiles[$i]}"
+done

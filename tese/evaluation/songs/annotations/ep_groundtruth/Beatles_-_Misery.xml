@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Misery">
+      <title>Misery</title>
+      <artist>Beatles</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="110">01:49</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:00:414" end="00:10:634" start_sec="0.4141795" end_sec="10.6347610"/>
+    <segment label="Verse" start="00:10:634" end="00:24:938" start_sec="10.6347610" end_sec="24.9382530"/>
+    <segment label="Verse" start="00:24:938" end="00:39:251" start_sec="24.9382530" end_sec="39.2514739"/>
+    <segment label="Bridge" start="00:39:251" end="00:53:684" start_sec="39.2514739" end_sec="53.6845570">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="Verse" start="00:53:684" end="01:08:027" start_sec="53.6845570" end_sec="68.0273921"/>
+    <segment label="Bridge" start="01:08:027" end="01:22:535" start_sec="68.0273921" end_sec="82.5353510">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="Verse" start="01:22:535" end="01:35:155" start_sec="82.5353510" end_sec="95.1553960"/>
+    <segment label="Outro" start="01:35:155" end="01:46:161" start_sec="95.1553960" end_sec="106.1616550"/>
+  </segmentation>
+</SegmXML>

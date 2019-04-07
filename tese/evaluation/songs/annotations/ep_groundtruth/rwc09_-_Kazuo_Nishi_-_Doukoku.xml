@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc09_-_Kazuo_Nishi_-_Doukoku.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="277">04:37</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:10:731" end="00:17:607" start_sec="10.731" end_sec="17.607" instrumental="NA" fade="NA"/>
+    <segment label="main_riff" start="00:10:731" end="00:17:607" start_sec="10.731" end_sec="17.607" instrumental="NA" fade="NA"/>
+    <segment label="main_riff" start="00:17:607" end="00:24:446" start_sec="17.607" end_sec="24.446" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:24:446" end="01:05:606" start_sec="24.446" end_sec="65.606" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="01:05:606" end="01:33:037" start_sec="65.606" end_sec="93.037" instrumental="NA" fade="NA"/>
+    <segment label="main_riff" start="01:33:037" end="01:39:891" start_sec="93.037" end_sec="99.891" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:39:891" end="02:21:030" start_sec="99.891" end_sec="141.03" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="02:21:030" end="02:48:451" start_sec="141.03" end_sec="168.451" instrumental="NA" fade="NA"/>
+    <segment label="solo" start="02:48:451" end="03:23:169" start_sec="168.451" end_sec="203.169" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="03:23:169" end="03:50:182" start_sec="203.169" end_sec="230.182" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="03:50:182" end="04:17:594" start_sec="230.182" end_sec="257.594" instrumental="NA" fade="NA"/>
+    <segment label="main_riff" start="04:17:594" end="04:24:419" start_sec="257.594" end_sec="264.419" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

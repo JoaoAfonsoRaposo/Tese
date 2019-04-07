@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Simply_Red_-_Stars">
+      <title>Stars</title>
+      <artist>Simply Red</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="248">04:08</duration>
+    <genre>Rock/Pop/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:19:272" start_sec="0.0000000" end_sec="19.2725623"/>
+    <segment label="verse" start="00:19:272" end="00:56:470" start_sec="19.2725623" end_sec="56.4709297"/>
+    <segment label="chorus" start="00:56:470" end="01:14:675" start_sec="56.4709297" end_sec="74.6753742"/>
+    <segment label="intro" start="01:14:675" end="01:24:102" start_sec="74.6753742" end_sec="84.1026757"/>
+    <segment label="verse" start="01:24:102" end="02:01:115" start_sec="84.1026757" end_sec="121.1152835"/>
+    <segment label="chorus" start="02:01:115" end="02:19:691" start_sec="121.1152835" end_sec="139.6912472"/>
+    <segment label="intro_piano" start="02:19:691" end="02:28:932" start_sec="139.6912472" end_sec="148.9327891"/>
+    <segment label="bridge" start="02:28:932" end="02:47:369" start_sec="148.9327891" end_sec="167.3694331"/>
+    <segment label="verse" start="02:47:369" end="03:24:521" start_sec="167.3694331" end_sec="204.5213605"/>
+    <segment label="chorus" start="03:24:521" end="03:42:928" start_sec="204.5213605" end_sec="222.9281335"/>
+    <segment label="chorus" start="03:42:928" end="04:00:200" start_sec="222.9281335" end_sec="240.2000430"/>
+  </segmentation>
+</SegmXML>

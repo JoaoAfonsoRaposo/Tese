@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Clash_-_Combat_Rock">
+      <title>Combat Rock</title>
+      <artist>The Clash</artist>
+      <album year="">03</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="190">03:09</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:15:166" start_sec="0.0000000" end_sec="15.1661680"/>
+    <segment label="verse" start="00:15:166" end="00:40:615" start_sec="15.1661680" end_sec="40.6158730"/>
+    <segment label="verse" start="00:40:615" end="01:06:448" start_sec="40.6158730" end_sec="66.4481630"/>
+    <segment label="chorus" start="01:06:448" end="01:30:621" start_sec="66.4481630" end_sec="90.6216781"/>
+    <segment label="verse" start="01:30:621" end="01:58:059" start_sec="90.6216781" end_sec="118.0590373"/>
+    <segment label="verse" start="01:58:059" end="02:20:886" start_sec="118.0590373" end_sec="140.8865310">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="chorus" start="02:20:886" end="02:47:367" start_sec="140.8865310" end_sec="167.3678916"/>
+    <segment label="chorus" start="02:47:367" end="03:06:809" start_sec="167.3678916" end_sec="186.8092204">
+      <alt_label>chorus2</alt_label>
+      <remark>only_5_lines</remark>
+    </segment>
+  </segmentation>
+</SegmXML>

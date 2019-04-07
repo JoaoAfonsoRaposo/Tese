@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="Deus_-_suds_and_soda.22050.wav">
+      <title>Suds And Soda</title>
+      <artist>dEUS</artist>
+      <album year="1994">Worst Case Scenario</album>
+      <genre>Rock/qmul14/queen_mary_corpus</genre>
+      <duration duration_sec="314.279125">05:14</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:15:311" start_sec="0.0000000" end_sec="15.3112020"/>
+    <segment label="intro" start="00:15:311" end="00:26:680" start_sec="15.3112020" end_sec="26.6800910">
+      <alt_label>intro_drum</alt_label>
+    </segment>
+    <segment label="intro" start="00:26:680" end="00:38:086" start_sec="26.6800910" end_sec="38.0868030">
+      <alt_label>intro_guitar</alt_label>
+    </segment>
+    <segment label="verse" start="00:38:086" end="00:49:524" start_sec="38.0868030" end_sec="49.5245350"/>
+    <segment label="verse" start="00:49:524" end="00:55:291" start_sec="49.5245350" end_sec="55.2915190">
+      <alt_label>verse_2</alt_label>
+    </segment>
+    <segment label="verse" start="00:55:291" end="01:00:950" start_sec="55.2915190" end_sec="60.9501130"/>
+    <segment label="break" start="01:00:950" end="01:03:772" start_sec="60.9501130" end_sec="63.7725170"/>
+    <segment label="break" start="01:03:772" end="01:09:977" start_sec="63.7725170" end_sec="69.9773240">
+      <alt_label>break_2</alt_label>
+    </segment>
+    <segment label="chorus" start="01:09:977" end="01:27:385" start_sec="69.9773240" end_sec="87.3857600"/>
+    <segment label="trans" start="01:27:385" end="01:32:979" start_sec="87.3857600" end_sec="92.9798640"/>
+    <segment label="intro" start="01:32:979" end="01:44:064" start_sec="92.9798640" end_sec="104.0643990">
+      <alt_label>intro_guitar</alt_label>
+    </segment>
+    <segment label="verse" start="01:44:064" end="01:55:370" start_sec="104.0643990" end_sec="115.3708840"/>
+    <segment label="verse" start="01:55:370" end="02:00:653" start_sec="115.3708840" end_sec="120.6537870">
+      <alt_label>verse_2</alt_label>
+    </segment>
+    <segment label="verse" start="02:00:653" end="02:06:648" start_sec="120.6537870" end_sec="126.6485260"/>
+    <segment label="break" start="02:06:648" end="02:09:541" start_sec="126.6485260" end_sec="129.5416780"/>
+    <segment label="break" start="02:09:541" end="02:16:302" start_sec="129.5416780" end_sec="136.3024940">
+      <alt_label>break_2</alt_label>
+    </segment>
+    <segment label="chorus" start="02:16:302" end="02:33:755" start_sec="136.3024940" end_sec="153.7556460"/>
+    <segment label="trans" start="02:33:755" end="02:39:401" start_sec="153.7556460" end_sec="159.4012700"/>
+    <segment label="solo_piano" start="02:39:401" end="03:23:250" start_sec="159.4012700" end_sec="203.2502490"/>
+    <segment label="chorus_violin" start="03:23:250" end="03:34:577" start_sec="203.2502490" end_sec="214.5774150"/>
+    <segment label="chorus" start="03:34:577" end="03:40:300" start_sec="214.5774150" end_sec="220.3006800"/>
+    <segment label="trans" start="03:40:300" end="03:45:919" start_sec="220.3006800" end_sec="225.9193650"/>
+    <segment label="verse" start="03:45:919" end="03:57:408" start_sec="225.9193650" end_sec="237.4087980"/>
+    <segment label="verse" start="03:57:408" end="04:08:706" start_sec="237.4087980" end_sec="248.7065760">
+      <alt_label>verse_2</alt_label>
+    </segment>
+    <segment label="verse" start="04:08:706" end="04:20:175" start_sec="248.7065760" end_sec="260.1752380">
+      <alt_label>verse_clean</alt_label>
+    </segment>
+    <segment label="verse" start="04:20:175" end="04:53:720" start_sec="260.1752380" end_sec="293.7209980">
+      <alt_label>verse_scream</alt_label>
+    </segment>
+    <segment label="verse" start="04:53:720" end="05:04:929" start_sec="293.7209980" end_sec="304.9296150">
+      <alt_label>verse_scream</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

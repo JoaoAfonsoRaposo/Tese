@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="R.E.M._-_Drive">
+      <title>Drive</title>
+      <artist>R.E.M.</artist>
+      <album year="1992">Automatic For The People</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="272">04:32</duration>
+    <genre>Rock/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+      <done_by timestamp="2007-02-24" note="removed 'silence' from beginning">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:04:829" end="00:18:575" start_sec="4.8297506" end_sec="18.5759638"/>
+    <segment label="verse" start="00:18:575" end="00:45:650" start_sec="18.5759638" end_sec="45.6504308">
+      <segment label="A" start="00:18:575" end="00:25:338" start_sec="18.5759638" end_sec="25.3387755"/>
+      <segment label="B" start="00:25:338" end="00:32:043" start_sec="25.3387755" end_sec="32.0435374"/>
+      <segment label="A" start="00:32:043" end="00:38:791" start_sec="32.0435374" end_sec="38.7918367"/>
+      <segment label="B" start="00:38:791" end="00:45:650" start_sec="38.7918367" end_sec="45.6504308"/>
+    </segment>
+    <segment label="chorus" start="00:45:650" end="01:12:632" start_sec="45.6504308" end_sec="72.6320181">
+      <segment label="part1" start="00:45:650" end="01:05:828" start_sec="45.6504308" end_sec="65.8285714"/>
+      <segment label="B" start="01:05:828" end="01:12:632" start_sec="65.8285714" end_sec="72.6320181"/>
+    </segment>
+    <segment label="verse" start="01:12:632" end="01:39:613" start_sec="72.6320181" end_sec="99.6136054">
+      <segment label="A" start="01:12:632" end="01:19:626" start_sec="72.6320181" end_sec="79.6263796"/>
+      <segment label="B" start="01:19:626" end="01:26:073" start_sec="79.6263796" end_sec="86.0734694"/>
+      <segment label="A" start="01:26:073" end="01:32:865" start_sec="86.0734694" end_sec="92.8653061"/>
+      <segment label="B" start="01:32:865" end="01:39:613" start_sec="92.8653061" end_sec="99.6136054"/>
+    </segment>
+    <segment label="chorus" start="01:39:613" end="02:06:548" start_sec="99.6136054" end_sec="126.5487528">
+      <segment label="part1" start="01:39:613" end="01:59:771" start_sec="99.6136054" end_sec="119.7714285"/>
+      <segment label="B" start="01:59:771" end="02:06:548" start_sec="119.7714285" end_sec="126.5487528"/>
+    </segment>
+    <segment label="verse" start="02:06:548" end="02:43:700" start_sec="126.5487528" end_sec="163.7006803">
+      <alt_label>bridge</alt_label>
+      <segment label="A" start="02:06:548" end="02:13:724" start_sec="126.5487528" end_sec="133.7249815"/>
+      <segment label="B" start="02:13:724" end="02:19:388" start_sec="133.7249815" end_sec="139.3884289"/>
+      <segment label="A" start="02:19:388" end="02:26:996" start_sec="139.3884289" end_sec="146.9960447"/>
+      <segment label="B" start="02:26:996" end="02:32:744" start_sec="146.9960447" end_sec="152.7440212"/>
+      <segment label="A" start="02:32:744" end="02:41:112" start_sec="152.7440212" end_sec="161.1123987"/>
+      <segment label="fill" start="02:41:112" end="02:43:700" start_sec="161.1123987" end_sec="163.7006803"/>
+    </segment>
+    <segment label="intro" start="02:43:700" end="02:53:917" start_sec="163.7006803" end_sec="173.9174604"/>
+    <segment label="verse" start="02:53:917" end="03:20:852" start_sec="173.9174604" end_sec="200.8526077">
+      <segment label="A" start="02:53:917" end="03:00:506" start_sec="173.9174604" end_sec="180.5061225"/>
+      <segment label="B" start="03:00:506" end="03:07:297" start_sec="180.5061225" end_sec="187.2979592"/>
+      <segment label="A" start="03:07:297" end="03:13:959" start_sec="187.2979592" end_sec="193.9591836"/>
+      <segment label="B" start="03:13:959" end="03:20:852" start_sec="193.9591836" end_sec="200.8526077"/>
+    </segment>
+    <segment label="chorus" start="03:20:852" end="03:47:741" start_sec="200.8526077" end_sec="227.7413152">
+      <segment label="part1" start="03:20:852" end="03:40:865" start_sec="200.8526077" end_sec="220.8653061"/>
+      <segment label="B" start="03:40:865" end="03:47:741" start_sec="220.8653061" end_sec="227.7413152"/>
+    </segment>
+    <segment label="verse" start="03:47:741" end="04:13:792" start_sec="227.7413152" end_sec="253.7921916">
+      <segment label="A" start="03:47:741" end="03:54:318" start_sec="227.7413152" end_sec="234.3183673"/>
+      <segment label="B" start="03:54:318" end="04:01:110" start_sec="234.3183673" end_sec="241.1102041"/>
+      <segment label="A" start="04:01:110" end="04:08:266" start_sec="241.1102041" end_sec="248.2668068"/>
+      <segment label="B" start="04:08:266" end="04:13:792" start_sec="248.2668068" end_sec="253.7921916"/>
+    </segment>
+    <segment label="outro" start="04:13:792" end="04:26:452" start_sec="253.7921916" end_sec="266.4522967"/>
+  </segmentation>
+</SegmXML>

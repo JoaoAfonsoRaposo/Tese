@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="Eav_-_Wo_Ist_Der_Kaiser.22050.wav">
+      <title>Wo Ist Der Kaiser</title>
+      <artist>Eav</artist>
+      <album year="1990">Neppomuk's Rache</album>
+      <genre>additional/Pop/Rock</genre>
+      <duration duration_sec="254.24975">04:14</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Andrei Grecu</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:06:770" end="00:21:864" start_sec="6.7703020" end_sec="21.8642799"/>
+    <segment label="Verse" start="00:21:864" end="00:40:482" start_sec="21.8642799" end_sec="40.4823781"/>
+    <segment label="Verse" start="00:40:482" end="00:55:256" start_sec="40.4823781" end_sec="55.2564221">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="Verse" start="00:55:256" end="01:10:286" start_sec="55.2564221" end_sec="70.2860767">
+      <alt_label>verse3</alt_label>
+    </segment>
+    <segment label="Prechorus" start="01:10:286" end="01:14:455" start_sec="70.2860767" end_sec="74.4558281"/>
+    <segment label="Chorus" start="01:14:455" end="01:32:974" start_sec="74.4558281" end_sec="92.9742863"/>
+    <segment label="Verse" start="01:32:974" end="01:48:124" start_sec="92.9742863" end_sec="108.1242567">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="Verse" start="01:48:124" end="01:51:509" start_sec="108.1242567" end_sec="111.5093531">
+      <alt_label>verse2</alt_label>
+      <segment label="radetzky" start="01:48:124" end="01:51:509" start_sec="108.1242567" end_sec="111.5093531"/>
+    </segment>
+    <segment label="Verse" start="01:51:509" end="02:06:623" start_sec="111.5093531" end_sec="126.6230724">
+      <alt_label>verse3</alt_label>
+    </segment>
+    <segment label="Prechorus" start="02:06:623" end="02:10:725" start_sec="126.6230724" end_sec="130.7253676"/>
+    <segment label="Chorus" start="02:10:725" end="02:28:612" start_sec="130.7253676" end_sec="148.6127035"/>
+    <segment label="Verse" start="02:28:612" end="02:44:257" start_sec="148.6127035" end_sec="164.2578942"/>
+    <segment label="Verse" start="02:44:257" end="02:59:056" start_sec="164.2578942" end_sec="179.0560524">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="Verse" start="02:59:056" end="03:14:070" start_sec="179.0560524" end_sec="194.0701207">
+      <alt_label>verse3</alt_label>
+    </segment>
+    <segment label="Prechorus" start="03:14:070" end="03:18:238" start_sec="194.0701207" end_sec="198.2388499"/>
+    <segment label="Chorus" start="03:18:238" end="03:36:375" start_sec="198.2388499" end_sec="216.3753131"/>
+    <segment label="solo" start="03:36:375" end="03:55:757" start_sec="216.3753131" end_sec="235.7574124">
+      <alt_label>Bridge</alt_label>
+    </segment>
+    <segment label="Outro" start="03:55:757" end="04:12:166" start_sec="235.7574124" end_sec="252.1665933">
+      <alt_label>Chorus</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Nirvana_-_Smells_like_teen_spirit">
+      <title>Smells like teen spirit</title>
+      <artist>Nirvana</artist>
+      <album year="1991">Nevermind</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="301">05:01</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:08:463" start_sec="0.0000000" end_sec="8.4632356"/>
+    <segment label="intro_guitar" start="00:08:463" end="00:25:372" start_sec="8.4632356" end_sec="25.3720630"/>
+    <segment label="verse" start="00:25:372" end="00:50:245" start_sec="25.3720630" end_sec="50.2456240"/>
+    <segment label="verse" start="00:50:245" end="01:05:590" start_sec="50.2456240" end_sec="65.5900762">
+    	<alt_label>trans_hello</alt_label>
+    </segment>
+    <segment label="chorus" start="01:05:590" end="01:38:447" start_sec="65.5900762" end_sec="98.4473440">
+      <segment label="A" start="01:05:590" end="01:31:054" start_sec="65.5900762" end_sec="91.0543310"/>
+      <segment label="break" start="01:31:054" end="01:38:447" start_sec="91.0543310" end_sec="98.4473440"/>
+    </segment>
+    <segment label="verse" start="01:38:447" end="02:04:142" start_sec="98.4473440" end_sec="124.1427660"/>
+    <segment label="verse" start="02:04:142" end="02:19:394" start_sec="124.1427660" end_sec="139.3944694">
+      <alt_label>trans_hello</alt_label>
+    </segment>
+    <segment label="chorus" start="02:19:394" end="02:52:959" start_sec="139.3944694" end_sec="172.9594560">
+      <segment label="A" start="02:19:394" end="02:44:161" start_sec="139.3944694" end_sec="164.1618796"/>
+      <segment label="break" start="02:44:161" end="02:52:959" start_sec="164.1618796" end_sec="172.9594560"/>
+    </segment>
+    <segment label="bridge" start="02:52:959" end="03:25:233" start_sec="172.9594560" end_sec="205.2334643"/>
+    <segment label="solo_guitar_ending" start="03:25:233" end="03:33:574" start_sec="205.2334643" end_sec="213.5743310"/>
+    <segment label="verse" start="03:33:574" end="03:49:751" start_sec="213.5743310" end_sec="229.7519558"/>
+    <segment label="verse" start="03:49:751" end="04:05:558" start_sec="229.7519558" end_sec="245.5582930">
+      <alt_label>trans_hello</alt_label>
+    </segment>
+    <segment label="chorus" start="04:05:558" end="04:29:578" start_sec="245.5582930" end_sec="269.5789471">
+      <segment label="A" start="04:05:558" end="04:29:578" start_sec="245.5582930" end_sec="269.5789471"/>
+    </segment>
+    <segment label="outro" start="04:29:578" end="04:55:217" start_sec="269.5789471" end_sec="295.2175727"/>
+  </segmentation>
+</SegmXML>

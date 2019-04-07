@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Devil_In_Her_Heart">
+      <title>Devil In Her Heart</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="148">02:27</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:459" end="00:09:133" start_sec="0.4595427" end_sec="9.1334110"/>
+    <segment label="chorus" start="00:09:133" end="00:24:911" start_sec="9.1334110" end_sec="24.9113690"/>
+    <segment label="verse" start="00:24:911" end="00:42:744" start_sec="24.9113690" end_sec="42.7442940"/>
+    <segment label="chorus" start="00:42:744" end="00:58:557" start_sec="42.7442940" end_sec="58.5570840"/>
+    <segment label="verse" start="00:58:557" end="01:16:540" start_sec="58.5570840" end_sec="76.5409390"/>
+    <segment label="chorus" start="01:16:540" end="01:32:400" start_sec="76.5409390" end_sec="92.4001680"/>
+    <segment label="verse" start="01:32:400" end="01:50:372" start_sec="92.4001680" end_sec="110.3724130"/>
+    <segment label="chorus" start="01:50:372" end="02:06:196" start_sec="110.3724130" end_sec="126.1968120"/>
+    <segment label="outro" start="02:06:196" end="02:23:932" start_sec="126.1968120" end_sec="143.9325934"/>
+  </segmentation>
+</SegmXML>

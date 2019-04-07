@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_Anna_go_to">
+      <title>Anna (go to him)</title>
+      <artist>Beatles</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="179">02:58</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:00:708" end="00:09:669" start_sec="0.7084616" end_sec="9.6695437"/>
+    <segment label="Verse" start="00:09:669" end="00:29:410" start_sec="9.6695437" end_sec="29.4107308"/>
+    <segment label="Chorus" start="00:29:410" end="00:36:239" start_sec="29.4107308" end_sec="36.2399923"/>
+    <segment label="Verse" start="00:36:239" end="00:57:710" start_sec="36.2399923" end_sec="57.7109001"/>
+    <segment label="Bridge" start="00:57:710" end="01:31:965" start_sec="57.7109001" end_sec="91.9659766"/>
+    <segment label="Verse" start="01:31:965" end="01:49:562" start_sec="91.9659766" end_sec="109.5626313"/>
+    <segment label="Bridge" start="01:49:562" end="02:24:200" start_sec="109.5626313" end_sec="144.2006599"/>
+    <segment label="Verse" start="02:24:200" end="02:39:659" start_sec="144.2006599" end_sec="159.6600000"/>
+    <segment label="Chorus" start="02:39:659" end="02:54:530" start_sec="159.6600000" end_sec="174.5304761">
+      <alt_label>outro</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

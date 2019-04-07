@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="Wise_Guys_-_Powerfrau.22050.wav">
+      <title>Powerfrau</title>
+      <artist>Wise Guys</artist>
+      <album year="">Klartext</album>
+      <genre>additional</genre>
+      <duration duration_sec="143.86175">02:23</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:10:784" start_sec="0.0000000" end_sec="10.7843677"/>
+    <segment label="verse" start="00:10:784" end="00:22:417" start_sec="10.7843677" end_sec="22.4178983"/>
+    <segment label="bridge" start="00:22:417" end="00:26:876" start_sec="22.4178983" end_sec="26.8760030"/>
+    <segment label="verse" start="00:26:876" end="00:37:448" start_sec="26.8760030" end_sec="37.4480801"/>
+    <segment label="verse" start="00:37:448" end="00:48:359" start_sec="37.4480801" end_sec="48.3598222">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="chorus" start="00:48:359" end="01:04:536" start_sec="48.3598222" end_sec="64.5363738"/>
+    <segment label="bridge" start="01:04:536" end="01:10:565" start_sec="64.5363738" end_sec="70.5654298"/>
+    <segment label="verse" start="01:10:565" end="01:20:840" start_sec="70.5654298" end_sec="80.8402998"/>
+    <segment label="verse" start="01:20:840" end="01:31:412" start_sec="80.8402998" end_sec="91.4123768">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="chorus" start="01:31:412" end="01:48:013" start_sec="91.4123768" end_sec="108.0135098"/>
+    <segment label="bridge" start="01:48:013" end="02:20:451" start_sec="108.0135098" end_sec="140.4515293">
+      <segment label="part1" start="01:48:013" end="01:58:840" start_sec="108.0135098" end_sec="118.8403357"/>
+      <segment label="part2" start="01:58:840" end="02:09:053" start_sec="118.8403357" end_sec="129.0537357"/>
+      <segment label="part3" start="02:09:053" end="02:20:451" start_sec="129.0537357" end_sec="140.4515293"/>
+    </segment>
+  </segmentation>
+</SegmXML>

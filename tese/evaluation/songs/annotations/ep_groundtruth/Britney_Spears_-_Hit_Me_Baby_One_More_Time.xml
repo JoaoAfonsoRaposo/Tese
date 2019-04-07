@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Britney_Spears_-_Hit_Me_Baby_One_More_Time">
+      <title>Hit Me Baby One More Time</title>
+      <artist>Britney Spears</artist>
+      <album year="">Hit Me Baby One More Time</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="212">03:32</duration>
+    <genre>Rock/Pop/Dance/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:11:572" start_sec="0.0000000" end_sec="11.5729710"/>
+    <segment label="verse" start="00:11:572" end="00:21:903" start_sec="11.5729710" end_sec="21.9032200"/>
+    <segment label="verse" start="00:21:903" end="00:32:222" start_sec="21.9032200" end_sec="32.2224040"/>
+    <segment label="trans_show_me" start="00:32:222" end="00:42:549" start_sec="32.2224040" end_sec="42.5493880"/>
+    <segment label="chorus" start="00:42:549" end="01:03:240" start_sec="42.5493880" end_sec="63.2403630">
+      <segment label="part1" start="00:42:549" end="00:52:894" start_sec="42.5493880" end_sec="52.8948750"/>
+      <segment label="part2" start="00:52:894" end="01:03:240" start_sec="52.8948750" end_sec="63.2403630"/>
+    </segment>
+    <segment label="verse" start="01:03:240" end="01:13:709" start_sec="63.2403630" end_sec="73.7090269"/>
+    <segment label="verse" start="01:13:709" end="01:23:840" start_sec="73.7090269" end_sec="83.8408160"/>
+    <segment label="trans_show_me" start="01:23:840" end="01:34:186" start_sec="83.8408160" end_sec="94.1863950"/>
+    <segment label="chorus" start="01:34:186" end="01:54:824" start_sec="94.1863950" end_sec="114.8248530">
+      <segment label="part1" start="01:34:186" end="01:44:489" start_sec="94.1863950" end_sec="104.4897960"/>
+      <segment label="part2" start="01:44:489" end="01:54:824" start_sec="104.4897960" end_sec="114.8248530"/>
+    </segment>
+    <segment label="intro" start="01:54:824" end="02:05:136" start_sec="114.8248530" end_sec="125.1361450"/>
+    <segment label="verse" start="02:05:136" end="02:15:239" start_sec="125.1361450" end_sec="135.2390183">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="verse" start="02:15:239" end="02:25:801" start_sec="135.2390183" end_sec="145.8019950">
+      <alt_label>verse2</alt_label>
+    </segment>
+    <segment label="chorus" start="02:25:801" end="03:28:551" start_sec="145.8019950" end_sec="208.5515650">
+      <alt_label>chorus2</alt_label>
+      <segment label="part1" start="02:25:801" end="02:36:307" start_sec="145.8019950" end_sec="156.3073933"/>
+      
+      <segment label="part2" start="02:36:307" end="02:46:467" start_sec="156.3073933" end_sec="166.4679370"/>
+      <segment label="part1" start="02:46:467" end="02:56:753" start_sec="166.4679370" end_sec="176.7531970"/>
+      <segment label="part2" start="02:56:753" end="03:07:189" start_sec="176.7531970" end_sec="187.1892060"/>
+      
+      <segment label="part1" start="03:07:189" end="03:17:631" start_sec="187.1892060" end_sec="197.6319782"/>
+      
+      <segment label="part2" start="03:17:631" end="03:28:551" start_sec="197.6319782" end_sec="208.5515650"/>
+    </segment>
+  </segmentation>
+</SegmXML>

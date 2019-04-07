@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Chumbawamba_-_Thubthumping">
+      <title>Thubthumping</title>
+      <artist>Chumbawamba</artist>
+      <album year="1998">Tubthumper</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="209">03:29</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:09:239" start_sec="0.0000000" end_sec="9.2395460"/>
+    <segment label="chorus" start="00:09:239" end="00:18:547" start_sec="9.2395460" end_sec="18.5478460"/>
+    <segment label="chorus" start="00:18:547" end="00:27:813" start_sec="18.5478460" end_sec="27.8132430"/>
+    <segment label="verse" start="00:27:813" end="00:55:467" start_sec="27.8132430" end_sec="55.4676640">
+      <segment label="A" start="00:27:813" end="00:36:955" start_sec="27.8132430" end_sec="36.9557370"/>
+      <segment label="B" start="00:36:955" end="00:46:291" start_sec="36.9557370" end_sec="46.2915190"/>
+      <segment label="C" start="00:46:291" end="00:55:467" start_sec="46.2915190" end_sec="55.4676640"/>
+    </segment>
+    <segment label="chorus" start="00:55:467" end="01:04:718" start_sec="55.4676640" end_sec="64.7180050"/>
+    <segment label="chorus" start="01:04:718" end="01:14:039" start_sec="64.7180050" end_sec="74.0390930"/>
+    <segment label="verse" start="01:14:039" end="01:41:729" start_sec="74.0390930" end_sec="101.7298870">
+      <segment label="A" start="01:14:039" end="01:23:242" start_sec="74.0390930" end_sec="83.2425400"/>
+      <segment label="B" start="01:23:242" end="01:32:455" start_sec="83.2425400" end_sec="92.4552380"/>
+      <segment label="C" start="01:32:455" end="01:41:729" start_sec="92.4552380" end_sec="101.7298870"/>
+    </segment>
+    <segment label="chorus" start="01:41:729" end="01:51:012" start_sec="101.7298870" end_sec="111.0127890"/>
+    <segment label="chorus" start="01:51:012" end="02:00:272" start_sec="111.0127890" end_sec="120.2726530"/>
+    <segment label="verse" start="02:00:272" end="02:18:747" start_sec="120.2726530" end_sec="138.7478460">
+      <segment label="A" start="02:00:272" end="02:09:558" start_sec="120.2726530" end_sec="129.5580950"/>
+      <segment label="C" start="02:09:558" end="02:18:747" start_sec="129.5580950" end_sec="138.7478460"/>
+    </segment>
+    <segment label="chorus" start="02:18:747" end="02:28:006" start_sec="138.7478460" end_sec="148.0064400"/>
+    <segment label="chorus" start="02:28:006" end="02:37:219" start_sec="148.0064400" end_sec="157.2198640"/>
+    <segment label="chorus" start="02:37:219" end="02:46:472" start_sec="157.2198640" end_sec="166.4723810"/>
+    <segment label="chorus" start="02:46:472" end="02:55:759" start_sec="166.4723810" end_sec="175.7594560"/>
+    <segment label="chorus" start="02:55:759" end="03:04:813" start_sec="175.7594560" end_sec="184.8139778"/>
+    <segment label="chorus" start="03:04:813" end="03:14:276" start_sec="184.8139778" end_sec="194.2762810"/>
+  </segmentation>
+</SegmXML>

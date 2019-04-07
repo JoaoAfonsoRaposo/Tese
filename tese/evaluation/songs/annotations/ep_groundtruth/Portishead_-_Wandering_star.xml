@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Portishead_-_Wandering_star">
+      <title>Wandering star</title>
+      <artist>Portishead</artist>
+      <album year="1994">Dummy</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="294">04:53</duration>
+    <genre>HipHop/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:12:538" start_sec="0.0000000" end_sec="12.5387755"/>
+    <segment label="verse" start="00:12:538" end="00:36:501" start_sec="12.5387755" end_sec="36.5017687"/>
+    <segment label="chorus" start="00:36:501" end="01:00:464" start_sec="36.5017687" end_sec="60.4647619"/>
+    <segment label="verse" start="01:00:464" end="01:24:502" start_sec="60.4647619" end_sec="84.5020861"/>
+    <segment label="chorus" start="01:24:502" end="01:48:390" start_sec="84.5020861" end_sec="108.3907483"/>
+    <segment label="instrumental" start="01:48:390" end="02:24:335" start_sec="108.3907483" end_sec="144.3352381" instrumental="true"/>
+    <segment label="verse" start="02:24:335" end="02:48:298" start_sec="144.3352381" end_sec="168.2982313"/>
+    <segment label="chorus" start="02:48:298" end="03:12:354" start_sec="168.2982313" end_sec="192.3541043"/>
+    <segment label="fill" start="03:12:354" end="03:24:242" start_sec="192.3541043" end_sec="204.2427211"/>
+    <segment label="instrumental" start="03:24:242" end="03:36:363" start_sec="204.2427211" end_sec="216.3635374" instrumental="true">
+      <alt_label>instrumental2</alt_label>
+    </segment>
+    <segment label="instrumental" start="03:36:363" end="04:25:032" start_sec="216.3635374" end_sec="265.0326531" instrumental="true">
+      <alt_label>instrumental3</alt_label>
+    </segment>
+    <segment label="instrumental" start="04:25:032" end="04:48:345" start_sec="265.0326531" end_sec="288.3454875" instrumental="true">
+      <alt_label>instrumental4</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

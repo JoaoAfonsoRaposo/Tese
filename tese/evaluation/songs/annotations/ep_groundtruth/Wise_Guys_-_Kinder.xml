@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="Wise_Guys_-_Kinder.22050.wav">
+      <title>Kinder</title>
+      <artist>Wise Guys</artist>
+      <album year="2003">Klartext</album>
+      <genre>additional</genre>
+      <duration duration_sec="174.822666666667">02:54</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:04:699" start_sec="0.0000000" end_sec="4.6993947"/>
+    <segment label="chorus" start="00:04:699" end="00:28:438" start_sec="4.6993947" end_sec="28.4380092">
+      <segment label="main" start="00:04:699" end="00:21:038" start_sec="4.6993947" end_sec="21.0388286"/>
+      <segment label="break" start="00:21:038" end="00:28:438" start_sec="21.0388286" end_sec="28.4380092"/>
+    </segment>
+    <segment label="verse" start="00:28:438" end="00:40:920" start_sec="28.4380092" end_sec="40.9208831"/>
+    <segment label="verse" start="00:40:920" end="00:53:121" start_sec="40.9208831" end_sec="53.1210458"/>
+    <segment label="chorus" start="00:53:121" end="01:16:123" start_sec="53.1210458" end_sec="76.1235353">
+      <segment label="main" start="00:53:121" end="01:08:377" start_sec="53.1210458" end_sec="68.3772631"/>
+      <segment label="break" start="01:08:377" end="01:16:123" start_sec="68.3772631" end_sec="76.1235353"/>
+    </segment>
+    <segment label="verse" start="01:16:123" end="01:28:360" start_sec="76.1235353" end_sec="88.3600194"/>
+    <segment label="verse" start="01:28:360" end="01:40:783" start_sec="88.3600194" end_sec="100.7839418"/>
+    <segment label="chorus" start="01:40:783" end="02:03:756" start_sec="100.7839418" end_sec="123.7565442">
+      <segment label="main" start="01:40:783" end="01:55:984" start_sec="100.7839418" end_sec="115.9840135"/>
+      <segment label="break" start="01:55:984" end="02:03:756" start_sec="115.9840135" end_sec="123.7565442"/>
+    </segment>
+    <segment label="verse" start="02:03:756" end="02:15:704" start_sec="123.7565442" end_sec="135.7040594"/>
+    <segment label="verse" start="02:15:704" end="02:28:518" start_sec="135.7040594" end_sec="148.5183565"/>
+    <segment label="chorus" start="02:28:518" end="02:44:261" start_sec="148.5183565" end_sec="164.2619195"/>
+    <segment label="chorus" start="02:44:261" end="02:54:094" start_sec="164.2619195" end_sec="174.0944992">
+      <segment label="break" start="02:44:261" end="02:54:094" start_sec="164.2619195" end_sec="174.0944992"/>
+    </segment>
+  </segmentation>
+</SegmXML>

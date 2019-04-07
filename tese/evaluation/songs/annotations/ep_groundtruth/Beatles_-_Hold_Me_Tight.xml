@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Hold_Me_Tight">
+      <title>Hold Me Tight</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="153">02:32</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+      <done_by timestamp="2007-04-23" note="added intro two first verse">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="verse" start="00:00:440" end="00:31:767" start_sec="0.4403951" end_sec="31.7672000">
+    	<segment label="intro" start="00:00:440" end="00:03:810" start_sec="0.4403951" end_sec="3.8103750"/>
+	<segment label="verse" start="00:03:810" end="00:31:767" start_sec="3.8103750" end_sec="31.7672000"/>
+    </segment>
+    <segment label="verse" start="00:31:767" end="00:59:991" start_sec="31.7672000" end_sec="59.9910550"/>
+    <segment label="bridge" start="00:59:991" end="01:12:251" start_sec="59.9910550" end_sec="72.2511910">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="01:12:251" end="01:40:557" start_sec="72.2511910" end_sec="100.5575898"/>
+    <segment label="bridge" start="01:40:557" end="01:52:909" start_sec="100.5575898" end_sec="112.9093320"/>
+    <segment label="verse" start="01:52:909" end="02:21:493" start_sec="112.9093320" end_sec="141.4930960"/>
+    <segment label="outro" start="02:21:493" end="02:29:006" start_sec="141.4930960" end_sec="149.0067103"/>
+  </segmentation>
+</SegmXML>

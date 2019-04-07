@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_Shes_Leaving_Home">
+      <title>She's Leaving Home</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="215">03:35</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:00:000" end="00:05:915" start_sec="0.0000000" end_sec="5.9158500"/>
+    <segment label="Verse" start="00:05:915" end="00:28:195" start_sec="5.9158500" end_sec="28.1953960"/>
+    <segment label="Verse" start="00:28:195" end="00:50:753" start_sec="28.1953960" end_sec="50.7535820"/>
+    <segment label="chorus" start="00:50:753" end="01:17:642" start_sec="50.7535820" end_sec="77.6422900"/>
+    <segment label="Verse" start="01:17:642" end="01:40:931" start_sec="77.6422900" end_sec="100.9319040"/>
+    <segment label="Verse" start="01:40:931" end="02:04:175" start_sec="100.9319040" end_sec="124.1750790"/>
+    <segment label="chorus" start="02:04:175" end="02:30:982" start_sec="124.1750790" end_sec="150.9825170"/>
+    <segment label="Verse" start="02:30:982" end="02:54:016" start_sec="150.9825170" end_sec="174.0167120"/>
+    <segment label="chorus" start="02:54:016" end="03:21:961" start_sec="174.0167120" end_sec="201.9619270"/>
+    <segment label="Outro" start="03:21:961" end="03:34:951" start_sec="201.9619270" end_sec="214.9510833"/>
+  </segmentation>
+</SegmXML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Not_A_Second_Time">
+      <title>Not A Second Time</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="128">02:08</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="verse" start="00:00:459" end="00:13:534" start_sec="0.4595427" end_sec="13.5347960">
+      <alt_label>verse_A</alt_label>
+    </segment>
+    <segment label="verse" start="00:13:534" end="00:26:758" start_sec="13.5347960" end_sec="26.7585600">
+      <alt_label>verse_B</alt_label>
+    </segment>
+    <segment label="chorus" start="00:26:758" end="00:45:740" start_sec="26.7585600" end_sec="45.7408730"/>
+    <segment label="chorus" start="00:45:740" end="01:04:827" start_sec="45.7408730" end_sec="64.8276760">
+      <alt_label>solo</alt_label>
+    </segment>
+    <segment label="verse" start="01:04:827" end="01:18:353" start_sec="64.8276760" end_sec="78.3532990">
+      <alt_label>verse_A</alt_label>
+    </segment>
+    <segment label="verse" start="01:18:353" end="01:31:960" start_sec="78.3532990" end_sec="91.9601930">
+      <alt_label>verse_B</alt_label>
+    </segment>
+    <segment label="chorus" start="01:31:960" end="01:51:302" start_sec="91.9601930" end_sec="111.3024150"/>
+    <segment label="outro" start="01:51:302" end="02:04:839" start_sec="111.3024150" end_sec="124.8396490"/>
+  </segmentation>
+</SegmXML>

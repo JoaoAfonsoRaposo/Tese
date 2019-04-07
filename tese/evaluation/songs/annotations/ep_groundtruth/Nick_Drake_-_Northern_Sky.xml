@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Nick_Drake_-_Northern_Sky">
+      <title>Northern Sky - Nick Drake</title>
+      <artist>Various Artists</artist>
+      <album year="">'Serendipity' - Original Motion Picture Soundtrack</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="224">03:44</duration>
+    <genre>Rock/Folk/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="guitar" start="00:00:000" end="00:11:263" start_sec="0.0000000" end_sec="11.2637039"/>
+    <segment label="intro" start="00:11:263" end="00:21:548" start_sec="11.2637039" end_sec="21.5481179">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="00:21:548" end="00:48:111" start_sec="21.5481179" end_sec="48.1117460"/>
+    <segment label="intro" start="00:48:111" end="00:58:700" start_sec="48.1117460" end_sec="58.7000454">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="00:58:700" end="01:25:263" start_sec="58.7000454" end_sec="85.2636735"/>
+    <segment label="intro" start="01:25:263" end="01:46:208" start_sec="85.2636735" end_sec="106.2080726">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="bridge" start="01:46:208" end="02:15:604" start_sec="106.2080726" end_sec="135.6045351"/>
+    <segment label="verse" start="02:15:604" end="02:41:982" start_sec="135.6045351" end_sec="161.9824036"/>
+    <segment label="intro" start="02:41:982" end="02:52:756" start_sec="161.9824036" end_sec="172.7564626">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="02:52:756" end="03:19:134" start_sec="172.7564626" end_sec="199.1343311"/>
+    <segment label="outro" start="03:19:134" end="03:42:075" start_sec="199.1343311" end_sec="222.0756463"/>
+  </segmentation>
+</SegmXML>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Chicago_-_Old_Days">
+      <title>Old Days</title>
+      <artist>Chicago</artist>
+      <album year="2004">Starsky And Hutch OST</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="209">03:29</duration>
+    <genre>Rock/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+      <done_by timestamp="2007-04-23" note="discarded too short segments">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:16:587" start_sec="0" end_sec="16.5877551">
+    	<segment label="drum" start="00:00:000" end="00:01:044" start_sec="0.0000000" end_sec="1.0448980"/>
+	<segment label="intro" start="00:01:044" end="00:16:587" start_sec="1.0448980" end_sec="16.5877551"/>
+    </segment>
+    <segment label="verse" start="00:16:587" end="01:03:808" start_sec="16.5877551" end_sec="63.8084355">
+      <segment label="A" start="00:16:587" end="00:32:261" start_sec="16.5877551" end_sec="32.2612245"/>
+      <segment label="B" start="00:32:261" end="00:47:740" start_sec="32.2612245" end_sec="47.7402268"/>
+      <segment label="C" start="00:47:740" end="01:03:808" start_sec="47.7402268" end_sec="63.8084355"/>
+    </segment>
+    <segment label="instrumental" start="01:03:808" end="01:28:978" start_sec="63.8084355" end_sec="88.9788662" instrumental="true"/>
+    <segment label="intro" start="01:28:978" end="01:44:211" start_sec="88.9788662" end_sec="104.2111565"/>
+    <segment label="verse" start="01:44:211" end="02:30:594" start_sec="104.2111565" end_sec="150.5950000">
+      <segment label="A" start="01:44:211" end="01:59:629" start_sec="104.2111565" end_sec="119.6292063"/>
+      <segment label="B" start="01:59:629" end="02:14:954" start_sec="119.6292063" end_sec="134.9543764"/>
+      <segment label="C" start="02:14:954" end="02:30:594" start_sec="134.9543764" end_sec="150.5950000"/>
+    </segment>
+    <segment label="lab2" start="02:30:594" end="02:45:701" start_sec="150.5950000" end_sec="165.7010279"/>
+    <segment label="lab2" start="02:45:701" end="03:00:618" start_sec="165.7010279" end_sec="180.6182355"/>
+    <segment label="lab2" start="03:00:618" end="03:15:429" start_sec="180.6182355" end_sec="195.4290905"/>
+    <segment label="coda" start="03:15:429" end="03:27:164" start_sec="195.4290905" end_sec="207.1650000"/>
+  </segmentation>
+</SegmXML>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Alanis_Morissette_-_08_-_Head_Over_Feet">
+      <title>Head Over Feet</title>
+      <artist>Alanis Morissette</artist>
+      <album year="">Jagged Little Pill</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="267">04:27</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:18:228" start_sec="0.0000000" end_sec="18.2283900"/>
+    <segment label="verse" start="00:18:228" end="00:35:371" start_sec="18.2283900" end_sec="35.3719198"/>
+    <segment label="chorus" start="00:35:371" end="00:53:783" start_sec="35.3719198" end_sec="53.7832803"/>
+    <segment label="trans" start="00:53:783" end="01:00:101" start_sec="53.7832803" end_sec="60.1014060"/>
+    <segment label="verse" start="01:00:101" end="01:17:341" start_sec="60.1014060" end_sec="77.3415316"/>
+    <segment label="chorus" start="01:17:341" end="01:35:968" start_sec="77.3415316" end_sec="95.9689800"/>
+    <segment label="trans" start="01:35:968" end="01:41:947" start_sec="95.9689800" end_sec="101.9474830"/>
+    <segment label="intro" start="01:41:947" end="01:59:483" start_sec="101.9474830" end_sec="119.4838579"/>
+    <segment label="chorus" start="01:59:483" end="02:17:852" start_sec="119.4838579" end_sec="137.8522450" instrumental="true">
+      <alt_label>chorus_instru</alt_label>
+    </segment>
+    <segment label="trans" start="02:17:852" end="02:23:767" start_sec="137.8522450" end_sec="143.7675098"/>
+    <segment label="verse" start="02:23:767" end="03:04:890" start_sec="143.7675098" end_sec="184.8906737"/>
+    <segment label="chorus" start="03:04:890" end="03:23:672" start_sec="184.8906737" end_sec="203.6727440"/>
+    <segment label="trans" start="03:23:672" end="03:29:359" start_sec="203.6727440" end_sec="209.3593690"/>
+    <segment label="chorus" start="03:29:359" end="03:47:541" start_sec="209.3593690" end_sec="227.5415870"/>
+    <segment label="trans" start="03:47:541" end="03:53:393" start_sec="227.5415870" end_sec="233.3937087"/>
+    <segment label="chorus" start="03:53:393" end="04:08:503" start_sec="233.3937087" end_sec="248.5037640">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="outro" start="04:08:503" end="04:18:441" start_sec="248.5037640" end_sec="258.4415447"/>
+  </segmentation>
+</SegmXML>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Gloria_Gayner-I_Will_Survive">
+      <title>I Will Survive</title>
+      <artist>Gloria Gainer</artist>
+      <album year="0"/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="287">04:47</duration>
+    <genre>Pop/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:05:967" start_sec="0.0000000" end_sec="5.9678941"/>
+    <segment label="verse" start="00:05:967" end="00:22:628" start_sec="5.9678941" end_sec="22.6282650">
+      <alt_label>slow</alt_label>
+    </segment>
+    <segment label="verse" start="00:22:628" end="00:38:459" start_sec="22.6282650" end_sec="38.4597617"/>
+    <segment label="verse" start="00:38:459" end="00:54:788" start_sec="38.4597617" end_sec="54.7885829"/>
+    <segment label="chorus" start="00:54:788" end="01:10:868" start_sec="54.7885829" end_sec="70.8687419"/>
+    <segment label="bridge" start="01:10:868" end="01:28:109" start_sec="70.8687419" end_sec="88.1093248"/>
+    <segment label="verse" start="01:28:109" end="01:44:521" start_sec="88.1093248" end_sec="104.5210334"/>
+    <segment label="verse" start="01:44:521" end="02:00:893" start_sec="104.5210334" end_sec="120.8933299"/>
+    <segment label="verse" start="02:00:893" end="02:17:676" start_sec="120.8933299" end_sec="137.6760004"/>
+    <segment label="chorus" start="02:17:676" end="02:33:673" start_sec="137.6760004" end_sec="153.6732720"/>
+    <segment label="break" start="02:33:673" end="02:38:480" start_sec="153.6732720" end_sec="158.4807422"/>
+    <segment label="verse" start="02:38:480" end="02:54:991" start_sec="158.4807422" end_sec="174.9917150"/>
+    <segment label="chorus" start="02:54:991" end="03:11:110" start_sec="174.9917150" end_sec="191.1108257"/>
+    <segment label="solo" start="03:11:110" end="03:27:892" start_sec="191.1108257" end_sec="207.8923655" instrumental="true"/>
+    <segment label="verse" start="03:27:892" end="03:44:342" start_sec="207.8923655" end_sec="224.3426908"/>
+    <segment label="verse" start="03:44:342" end="04:00:903" start_sec="224.3426908" end_sec="240.9034209"/>
+    <segment label="verse" start="04:00:903" end="04:17:464" start_sec="240.9034209" end_sec="257.4641511"/>
+    <segment label="chorus" start="04:17:464" end="04:33:804" start_sec="257.4641511" end_sec="273.8040714"/>
+    <segment label="solo" start="04:33:804" end="04:44:954" start_sec="273.8040714" end_sec="284.9549631" instrumental="true">
+      <alt_label>outro</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

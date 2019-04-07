@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_You_Really_Got_A_Hold_On_Me">
+      <title>You Really Got A Hold On Me</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="183">03:02</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:440" end="00:13:977" start_sec="0.4403951" end_sec="13.9777560"/>
+    <segment label="verse" start="00:13:977" end="00:35:421" start_sec="13.9777560" end_sec="35.4213840"/>
+    <segment label="chorus" start="00:35:421" end="00:47:862" start_sec="35.4213840" end_sec="47.8621833"/>
+    <segment label="verse" start="00:47:862" end="01:09:786" start_sec="47.8621833" end_sec="69.7869170"/>
+    <segment label="chorus" start="01:09:786" end="01:22:290" start_sec="69.7869170" end_sec="82.2908630"/>
+    <segment label="closing" start="01:22:290" end="01:37:395" start_sec="82.2908630" end_sec="97.3954430"/>
+    <segment label="bridge" start="01:37:395" end="01:49:748" start_sec="97.3954430" end_sec="109.7484590">
+      <alt_label>intro</alt_label>
+    </segment>
+    <segment label="verse" start="01:49:748" end="02:11:830" start_sec="109.7484590" end_sec="131.8306360"/>
+    <segment label="chorus" start="02:11:830" end="02:24:613" start_sec="131.8306360" end_sec="144.6132210"/>
+    <segment label="closing" start="02:24:613" end="02:39:717" start_sec="144.6132210" end_sec="159.7178010"/>
+    <segment label="chorus" start="02:39:717" end="02:52:523" start_sec="159.7178010" end_sec="172.5236060"/>
+    <segment label="outro" start="02:52:523" end="02:58:781" start_sec="172.5236060" end_sec="178.7812457"/>
+  </segmentation>
+</SegmXML>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Prince_-_Kiss">
+      <title>Kiss</title>
+      <artist>Prince</artist>
+      <album year="2000">The Hits/The B-Sides</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="226">03:46</duration>
+    <genre>Pop/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:10:423" start_sec="0.0000000" end_sec="10.4233863"/>
+    <segment label="verse" start="00:10:423" end="00:43:080" start_sec="10.4233863" end_sec="43.0807833"/>
+    <segment label="chorus" start="00:43:080" end="01:02:824" start_sec="43.0807833" end_sec="62.8244898"/>
+    <segment label="intro" start="01:02:824" end="01:11:656" start_sec="62.8244898" end_sec="71.6567347"/>
+    <segment label="verse" start="01:11:656" end="01:43:943" start_sec="71.6567347" end_sec="103.9438473"/>
+    <segment label="chorus" start="01:43:943" end="02:03:167" start_sec="103.9438473" end_sec="123.1673469"/>
+    <segment label="intro" start="02:03:167" end="02:11:258" start_sec="123.1673469" end_sec="131.2588971"/>
+    <segment label="break1" start="02:11:258" end="02:29:211" start_sec="131.2588971" end_sec="149.2110000"/>
+    <segment label="break2" start="02:29:211" end="02:45:727" start_sec="149.2114286" end_sec="165.7270821"/>
+    <segment label="verse" start="02:45:727" end="03:20:186" start_sec="165.7270821" end_sec="200.1861308"/>
+    <segment label="chorus" start="03:20:186" end="03:37:991" start_sec="200.1861308" end_sec="217.9910000"/>
+    <segment label="outro" start="03:37:991" end="03:42:447" start_sec="217.9910000" end_sec="222.4470000"/>
+  </segmentation>
+</SegmXML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Oasis_-_Wonderwall">
+      <title>Wonderwall</title>
+      <artist>Oasis</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="259">04:18</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:22:446" start_sec="0.0000000" end_sec="22.4467120"/>
+    <segment label="verse" start="00:22:446" end="00:44:582" start_sec="22.4467120" end_sec="44.5823130"/>
+    <segment label="verse" start="00:44:582" end="01:05:942" start_sec="44.5823130" end_sec="65.9423130"/>
+    <segment label="prechorus" start="01:05:942" end="01:28:427" start_sec="65.9423130" end_sec="88.4278460">
+      <alt_label>trans</alt_label>
+    </segment>
+    <segment label="chorus" start="01:28:427" end="01:54:949" start_sec="88.4278460" end_sec="114.9490250"/>
+    <segment label="verse" start="01:54:949" end="02:16:302" start_sec="114.9490250" end_sec="136.3024940"/>
+    <segment label="prechorus" start="02:16:302" end="02:38:746" start_sec="136.3024940" end_sec="158.7466670">
+      <alt_label>trans</alt_label>
+    </segment>
+    <segment label="chorus" start="02:38:746" end="03:00:806" start_sec="158.7466670" end_sec="180.8068030"/>
+    <segment label="chorus" start="03:00:806" end="03:22:832" start_sec="180.8068030" end_sec="202.8325620"/>
+    <segment label="chorus" start="03:22:832" end="03:45:118" start_sec="202.8325620" end_sec="225.1188210"/>
+    <segment label="chorus" start="03:45:118" end="04:04:237" start_sec="225.1188210" end_sec="244.2374525" instrumental="true">
+      <alt_label>instru</alt_label>
+    </segment>
+    <segment label="outro" start="04:04:237" end="04:12:825" start_sec="244.2374525" end_sec="252.8255619"/>
+  </segmentation>
+</SegmXML>

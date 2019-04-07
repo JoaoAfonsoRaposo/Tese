@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_A_Day_In_The_Life">
+      <title>A Day In The Life</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="334">05:34</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+      <done_by timestamp="2007-05-03" note="alternative labels for bridges">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:12:848" start_sec="0.0000000" end_sec="12.8480471"/>
+    <segment label="verse" start="00:12:848" end="00:43:950" start_sec="12.8480471" end_sec="43.9501360" instrumental="true">
+    	<remark>instrumental</remark>
+    </segment>
+    <segment label="verse" start="00:43:950" end="01:11:697" start_sec="43.9501360" end_sec="71.6979810"/>
+    <segment label="verse" start="01:11:697" end="01:40:897" start_sec="71.6979810" end_sec="100.8970740"/>
+    <segment label="bridge" start="01:40:897" end="02:15:679" start_sec="100.8970740" end_sec="135.6799729"/>
+    <segment label="bridge" start="02:15:679" end="02:49:152" start_sec="135.6799729" end_sec="169.1521310" instrumental="true">
+    	<alt_label>bridge2</alt_label>
+    </segment>
+    <segment label="bridge" start="02:49:152" end="03:18:339" start_sec="169.1521310" end_sec="198.3396140" instrumental="true">
+    	<alt_label>bridge3</alt_label>
+    </segment>
+    <segment label="verse" start="03:18:339" end="03:46:354" start_sec="198.3396140" end_sec="226.3544890"/>
+    <segment label="bridge" start="03:46:354" end="04:21:154" start_sec="226.3544890" end_sec="261.1542691"/>
+    <segment label="outro" start="04:21:154" end="05:03:623" start_sec="261.1542691" end_sec="303.6236707">
+    	<remark>fade out, from 4:53 almost silent</remark>
+    </segment>
+    <segment label="postscript" start="05:10:800" end="05:33:704" start_sec="310.8" end_sec="333.7045679"/>
+  </segmentation>
+</SegmXML>

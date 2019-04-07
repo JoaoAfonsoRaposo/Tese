@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+	<metadata>
+		<song canonicalname="The_Monkees_-_Words">
+			<title>Words</title>
+			<artist>The Monkees</artist>
+			<album year="2002">The Definitive Monkees</album>
+			<musicbrainz_trackID/>
+			<duration duration_sec="164">02:44</duration>
+			<genre>Rock/queen_mary_corpus</genre>
+		</song>
+		<annotation source="ground truth">
+			<done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+			<done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+		</annotation>
+	</metadata>
+	<segmentation>
+		<segment label="intro" start="00:00:000" end="00:07:569" start_sec="0.0000000" end_sec="7.5697052"/>
+		<segment label="verse" start="00:07:569" end="00:24:984" start_sec="7.5697052" end_sec="24.9846711"/>
+		<segment label="pre_chorus" start="00:24:984" end="00:40:265" start_sec="24.9846711" end_sec="40.2652704"/>
+		<segment label="chorus" start="00:40:265" end="00:55:621" start_sec="40.2652704" end_sec="55.6211037"/>
+		<segment label="verse" start="00:55:621" end="01:14:210" start_sec="55.6211037" end_sec="74.2109751"/>
+		<segment label="pre_chorus" start="01:14:210" end="01:28:587" start_sec="74.2109751" end_sec="88.5879171"/>
+		<segment label="chorus" start="01:28:587" end="01:43:839" start_sec="88.5879171" end_sec="103.8396372"/>
+		<segment label="break" start="01:43:839" end="01:57:725" start_sec="103.8396372" end_sec="117.7251700"/>
+		<segment label="pre_chorus" start="01:57:725" end="02:11:306" start_sec="117.7251700" end_sec="131.3066731"/>
+		<segment label="chorus" start="02:11:306" end="02:24:955" start_sec="131.3066731" end_sec="144.9553662"/>
+		<segment label="chorus" start="02:24:955" end="02:43:260" start_sec="144.9553662" end_sec="163.2607803">
+			<alt_label>outro</alt_label>
+		</segment>
+	</segmentation>
+</SegmXML>

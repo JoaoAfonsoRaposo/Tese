@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_I_saw_her_standing_there">
+      <title>I saw her standing there</title>
+      <artist>Beatles</artist>
+      <album year=""/>
+      <musicbrainz_trackID/>
+      <duration duration_sec="175">02:55</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:02:274" end="00:07:500" start_sec="2.2741607" end_sec="7.5000000"/>
+    <segment label="verse" start="00:07:500" end="00:20:410" start_sec="7.5000000" end_sec="20.4103620">
+      <alt_label>VerseA</alt_label>
+    </segment>
+    <segment label="verse" start="00:20:410" end="00:32:000" start_sec="20.4103620" end_sec="32.0000000">
+      <alt_label>VerseB</alt_label>
+    </segment>
+    <segment label="verse" start="00:32:000" end="00:44:245" start_sec="32.0000000" end_sec="44.2456460">
+      <alt_label>VerseA</alt_label>
+    </segment>
+    <segment label="verse" start="00:44:245" end="00:56:111" start_sec="44.2456460" end_sec="56.1110430">
+      <alt_label>VerseB</alt_label>
+    </segment>
+    <segment label="Bridge" start="00:56:111" end="01:11:192" start_sec="56.1110430" end_sec="71.1924030">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="01:11:192" end="01:23:208" start_sec="71.1924030" end_sec="83.2087300">
+      <alt_label>VerseA</alt_label>
+    </segment>
+    <segment label="verse" start="01:23:208" end="01:35:400" start_sec="83.2087300" end_sec="95.4000000">
+      <alt_label>VerseB</alt_label>
+    </segment>
+    <segment label="verse" start="01:35:400" end="01:59:037" start_sec="95.4000000" end_sec="119.0371200">
+      <alt_label>VerseGuitar</alt_label>
+    </segment>
+    <segment label="Bridge" start="01:59:037" end="02:14:037" start_sec="119.0371200" end_sec="134.0372100">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="02:14:037" end="02:26:041" start_sec="134.0372100" end_sec="146.0419270">
+      <alt_label>VerseA</alt_label>
+    </segment>
+    <segment label="verse" start="02:26:041" end="02:51:687" start_sec="146.0419270" end_sec="171.6871730">
+      <alt_label>VerseB</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

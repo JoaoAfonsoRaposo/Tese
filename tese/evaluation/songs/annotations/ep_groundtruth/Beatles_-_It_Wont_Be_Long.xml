@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_It_Wont_Be_Long">
+      <title>It Won't Be Long</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="134">02:13</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="chorus" start="00:01:072" end="00:15:720" start_sec="1.0722662" end_sec="15.7201890"/>
+    <segment label="verse" start="00:15:720" end="00:28:108" start_sec="15.7201890" end_sec="28.1080340"/>
+    <segment label="chorus" start="00:28:108" end="00:42:365" start_sec="28.1080340" end_sec="42.3650870"/>
+    <segment label="bridge" start="00:42:365" end="00:56:633" start_sec="42.3650870" end_sec="56.6337490"/>
+    <segment label="verse" start="00:56:633" end="01:09:253" start_sec="56.6337490" end_sec="69.2537940"/>
+    <segment label="chorus" start="01:09:253" end="01:23:684" start_sec="69.2537940" end_sec="83.6849960"/>
+    <segment label="bridge" start="01:23:684" end="01:38:081" start_sec="83.6849960" end_sec="98.0813680"/>
+    <segment label="verse" start="01:38:081" end="01:50:747" start_sec="98.0813680" end_sec="110.7478530"/>
+    <segment label="chorus" start="01:50:747" end="01:59:850" start_sec="110.7478530" end_sec="119.8500750"/>
+    <segment label="outro" start="01:59:850" end="02:10:012" start_sec="119.8500750" end_sec="130.0122800"/>
+  </segmentation>
+</SegmXML>

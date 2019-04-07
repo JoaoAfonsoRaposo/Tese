@@ -1,0 +1,237 @@
+#!/bin/bash
+
+echo Hello, world!
+
+SEGMENTINOFILESPATH_PPM=../songs/algorithms_segmentation/segmentino/The_Beatles/PleasePleaseMe/
+QMSEGFILESPATH_PPM=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/PleasePleaseMe/
+GTFILESPATH_PPM=../songs/annotations/TheBeatles/01Please_Please_Me/
+segmentinoFiles_PPM=(${SEGMENTINOFILESPATH_PPM}*)
+qmsegmenterFiles_PPM=(${QMSEGFILESPATH_PPM}*)
+gtFiles_PPM=(${GTFILESPATH_PPM}*)
+
+SEGMENTINOFILESPATH_HDN=../songs/algorithms_segmentation/segmentino/The_Beatles/AHardDaysNight/
+QMSEGFILESPATH_HDN=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AHardDaysNight/
+GTFILESPATH_HDN=../songs/annotations/TheBeatles/03A_Hard_Days_Night/
+segmentinoFiles_HDN=(${SEGMENTINOFILESPATH_HDN}*)
+qmsegmenterFiles_HDN=(${QMSEGFILESPATH_HDN}*)
+gtFiles_HDN=(${GTFILESPATH_HDN}*)
+
+
+SEGMENTINOFILESPATH_BFS=../songs/algorithms_segmentation/segmentino/The_Beatles/BeatlesForSale/
+QMSEGFILESPATH_BFS=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/BeatlesForSale/
+GTFILESPATH_BFS=../songs/annotations/TheBeatles/04Beatles_for_Sale/
+segmentinoFiles_BFS=(${SEGMENTINOFILESPATH_BFS}*)
+qmsegmenterFiles_BFS=(${QMSEGFILESPATH_BFS}*)
+gtFiles_BFS=(${GTFILESPATH_BFS}*)
+
+
+SEGMENTINOFILESPATH_H=../songs/algorithms_segmentation/segmentino/The_Beatles/Help/
+QMSEGFILESPATH_H=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Help/
+GTFILESPATH_H=../songs/annotations/TheBeatles/05Help/
+segmentinoFiles_H=(${SEGMENTINOFILESPATH_H}*)
+qmsegmenterFiles_H=(${QMSEGFILESPATH_H}*)
+gtFiles_H=(${GTFILESPATH_H}*)
+
+
+SEGMENTINOFILESPATH_RS=../songs/algorithms_segmentation/segmentino/The_Beatles/RubberSoul/
+QMSEGFILESPATH_RS=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/RubberSoul/
+GTFILESPATH_RS=../songs/annotations/TheBeatles/06Rubber_Soul/
+segmentinoFiles_RS=(${SEGMENTINOFILESPATH_RS}*)
+qmsegmenterFiles_RS=(${QMSEGFILESPATH_RS}*)
+gtFiles_RS=(${GTFILESPATH_RS}*)
+
+
+SEGMENTINOFILESPATH_R=../songs/algorithms_segmentation/segmentino/The_Beatles/Revolver/
+QMSEGFILESPATH_R=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Revolver/
+GTFILESPATH_R=../songs/annotations/TheBeatles/07Revolver/
+segmentinoFiles_R=(${SEGMENTINOFILESPATH_R}*)
+qmsegmenterFiles_R=(${QMSEGFILESPATH_R}*)
+gtFiles_R=(${GTFILESPATH_R}*)
+
+SEGMENTINOFILESPATH_MMT=../songs/algorithms_segmentation/segmentino/The_Beatles/MagicalMisteryTour/
+QMSEGFILESPATH_MMT=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/MagicalMisteryTour/
+GTFILESPATH_MMT=../songs/annotations/TheBeatles/09Magical_Mystery_Tour/
+segmentinoFiles_MMT=(${SEGMENTINOFILESPATH_MMT}*)
+qmsegmenterFiles_MMT=(${QMSEGFILESPATH_MMT}*)
+gtFiles_MMT=(${GTFILESPATH_MMT}*)
+
+SEGMENTINOFILESPATH_AR=../songs/algorithms_segmentation/segmentino/The_Beatles/AbbeyRoad/
+QMSEGFILESPATH_AR=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AbbeyRoad/
+GTFILESPATH_AR=../songs/annotations/TheBeatles/11Abbey_Road/
+segmentinoFiles_AR=(${SEGMENTINOFILESPATH_AR}*)
+qmsegmenterFiles_AR=(${QMSEGFILESPATH_AR}*)
+gtFiles_AR=(${GTFILESPATH_AR}*)
+
+SEGMENTINOFILESPATH_LIB=../songs/algorithms_segmentation/segmentino/The_Beatles/LetItBe/
+QMSEGFILESPATH_LIB=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/LetItBe/
+GTFILESPATH_LIB=../songs/annotations/TheBeatles/12Let_It_Be/
+segmentinoFiles_LIB=(${SEGMENTINOFILESPATH_LIB}*)
+qmsegmenterFiles_LIB=(${QMSEGFILESPATH_LIB}*)
+gtFiles_LIB=(${GTFILESPATH_LIB}*)
+
+
+#corpus_inesc
+SEGMENTINOFILESPATH_INESC=../songs/algorithms_segmentation/segmentino/corpus_inesc/
+QMSEGFILESPATH_INESC=../songs/algorithms_segmentation/qm-segmenter/corpus_inesc/
+GTFILESPATH_INESC=../songs/annotations/ep_groundtruth/
+segmentinoFiles_INESC=(${SEGMENTINOFILESPATH_INESC}*)
+qmsegmenterFiles_INESC=(${QMSEGFILESPATH_INESC}*)
+gtFiles_INESC=(${GTFILESPATH_INESC}*)
+
+
+
+echo TheBeatles!!!
+
+#11Abbey_Road
+for ((i=0; i<${#segmentinoFiles_AR[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_AR[$i]}" "segmentino" "${gtFiles_AR[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_AR[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_AR[$i]}" "qm_segmenter" "${gtFiles_AR[$i]}" "gt"
+done
+
+echo AbbeyRoad, done!
+
+#01PleasePleaseMe
+for ((i=0; i<${#segmentinoFiles_PPM[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_PPM[$i]}" "segmentino" "${gtFiles_PPM[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_PPM[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_PPM[$i]}" "qm_segmenter" "${gtFiles_PPM[$i]}" "gt"
+done
+
+
+echo PleasePleaseMe, done!
+
+#07Revolver
+for ((i=0; i<${#segmentinoFiles_R[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_R[$i]}" "segmentino" "${gtFiles_R[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_R[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_R[$i]}" "qm_segmenter" "${gtFiles_R[$i]}" "gt"
+done
+
+
+echo Revolver, done!
+
+#06RubberSoul
+for ((i=0; i<${#segmentinoFiles_RS[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_RS[$i]}" "segmentino" "${gtFiles_RS[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_RS[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_RS[$i]}" "qm_segmenter" "${gtFiles_RS[$i]}" "gt"
+done
+
+
+echo RubberSoul, done!
+
+
+#09MagicalMisteryTour
+for ((i=0; i<${#segmentinoFiles_MMT[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_MMT[$i]}" "segmentino" "${gtFiles_MMT[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_MMT[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_MMT[$i]}" "qm_segmenter" "${gtFiles_MMT[$i]}" "gt"
+done
+
+
+echo MagicalMisteryTour, done!
+
+#12LetItBe
+for ((i=0; i<${#segmentinoFiles_LIB[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_LIB[$i]}" "segmentino" "${gtFiles_LIB[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_LIB[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_LIB[$i]}" "qm_segmenter" "${gtFiles_LIB[$i]}" "gt"
+done
+
+
+echo LetItBe, done!
+
+
+#05Help
+for ((i=0; i<${#segmentinoFiles_H[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_H[$i]}" "segmentino" "${gtFiles_H[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_H[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_H[$i]}" "qm_segmenter" "${gtFiles_H[$i]}" "gt"
+done
+
+
+echo Help, done!
+
+
+#04BeatlesforSale
+for ((i=0; i<${#segmentinoFiles_BFS[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_BFS[$i]}" "segmentino" "${gtFiles_BFS[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_BFS[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_BFS[$i]}" "qm_segmenter" "${gtFiles_BFS[$i]}" "gt"
+done
+
+
+echo BeatlesForSale, done!
+
+
+#03AHardDaysNight
+for ((i=0; i<${#segmentinoFiles_HDN[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_HDN[$i]}" "segmentino" "${gtFiles_HDN[$i]}" "gt"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_HDN[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_HDN[$i]}" "qm_segmenter" "${gtFiles_HDN[$i]}" "gt"
+done
+
+
+echo AHardDaysNight, done!
+
+
+#corpus_inesc
+for ((i=0; i<${#segmentinoFiles_INESC[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_INESC[$i]}" "segmentino" "${gtFiles_INESC[$i]}" "gt_xml"
+done
+
+for ((i=0; i<${#qmsegmenterFiles_INESC[@]}; i++));
+do
+    python3 main.py "${qmsegmenterFiles_INESC[$i]}" "qm_segmenter" "${gtFiles_INESC[$i]}" "gt_xml"
+done
+
+
+echo corpus_inesc, done!
+
+
+#Aggregate results by segmenter
+
+echo Let\'s gather results!
+
+python3 gatherResults.py  "segmentino"
+python3 gatherResults.py  "qm_segmenter"
+
+echo Done!

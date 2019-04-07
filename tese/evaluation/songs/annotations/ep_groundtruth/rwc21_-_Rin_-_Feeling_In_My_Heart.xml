@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc21_-_Rin_-_Feeling_In_My_Heart.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="268">04:28</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:050" end="00:19:627" start_sec="0.05" end_sec="19.627" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:19:627" end="00:51:460" start_sec="19.627" end_sec="51.46" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="00:51:460" end="01:28:210" start_sec="51.46" end_sec="88.21" instrumental="NA" fade="NA"/>
+    <segment label="instrumental" start="01:28:210" end="01:42:858" start_sec="88.21" end_sec="102.858" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:42:858" end="02:14:718" start_sec="102.858" end_sec="134.718" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="02:14:718" end="02:51:477" start_sec="134.718" end_sec="171.477" instrumental="NA" fade="NA"/>
+    <segment label="instrumental" start="02:51:477" end="03:15:931" start_sec="171.477" end_sec="195.931" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="03:15:931" end="03:52:702" start_sec="195.931" end_sec="232.702" instrumental="NA" fade="NA"/>
+    <segment label="instrumental" start="03:52:702" end="04:00:043" start_sec="232.702" end_sec="240.043" instrumental="NA" fade="NA"/>
+    <segment label="intro" start="04:00:043" end="04:19:602" start_sec="240.043" end_sec="259.602" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

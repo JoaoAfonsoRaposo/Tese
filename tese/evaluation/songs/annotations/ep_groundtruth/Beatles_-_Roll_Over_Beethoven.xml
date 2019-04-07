@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+	<metadata>
+		<song canonicalname="Beatles_-_Roll_Over_Beethoven">
+			<title>Roll Over Beethoven</title>
+			<artist>Beatles</artist>
+			<album year="1963">With The Beatles</album>
+			<musicbrainz_trackID/>
+			<duration duration_sec="168">02:47</duration>
+			<genre>Beatles/queen_mary_corpus</genre>
+		</song>
+		<annotation source="ground truth">
+			<done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+			<done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+			<done_by timestamp="2007-05-15" note="last segment gets alt_label">Ewald Peiszer</done_by>
+		</annotation>
+	</metadata>
+	<segmentation>
+		<segment label="intro" start="00:00:440" end="00:17:965" start_sec="0.4403951" end_sec="17.9652120"/>
+		<segment label="verse_chorus" start="00:17:965" end="00:35:623" start_sec="17.9652120" end_sec="35.6239880"/>
+		<segment label="verse_chorus" start="00:35:623" end="00:53:654" start_sec="35.6239880" end_sec="53.6542830"/>
+		<segment label="verse_chorus" start="00:53:654" end="01:11:707" start_sec="53.6542830" end_sec="71.7077970"/>
+		<segment label="bridge" start="01:11:707" end="01:29:192" start_sec="71.7077970" end_sec="89.1924230"/>
+		<segment label="verse_chorus" start="01:29:192" end="01:46:793" start_sec="89.1924230" end_sec="106.7931490">
+			<alt_label>solo</alt_label>
+		</segment>
+		<segment label="verse_chorus" start="01:46:793" end="02:04:828" start_sec="106.7931490" end_sec="124.8280417"/>
+		<segment label="verse_chorus" start="02:04:828" end="02:22:888" start_sec="124.8280417" end_sec="142.8885680"/>
+		<segment label="verse_chorus" start="02:22:888" end="02:43:424" start_sec="142.8885680" end_sec="163.4248616">
+			<alt_label>verse_chorus2</alt_label>
+		</segment>
+	</segmentation>
+</SegmXML>

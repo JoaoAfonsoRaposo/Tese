@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc19_-_Hisayoshi_Kazato_-_Cool_Motion.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="289">04:49</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="chorus" start="00:14:570" end="00:31:429" start_sec="14.57" end_sec="31.429" instrumental="NA" fade="NA"/>
+    <segment label="interlude" start="00:31:429" end="00:46:157" start_sec="31.429" end_sec="46.157" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:46:157" end="01:15:743" start_sec="46.157" end_sec="75.743" instrumental="NA" fade="NA"/>
+    <segment label="strange_bonus_part" start="01:15:743" end="01:30:286" start_sec="75.743" end_sec="90.286" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="01:30:286" end="01:47:121" start_sec="90.286" end_sec="107.121" instrumental="NA" fade="NA"/>
+    <segment label="interlude" start="01:47:121" end="02:01:728" start_sec="107.121" end_sec="121.728" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="02:01:728" end="02:31:247" start_sec="121.728" end_sec="151.247" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="02:31:247" end="02:46:162" start_sec="151.247" end_sec="166.162" instrumental="NA" fade="NA">
+      <alt_label>breakdown</alt_label>
+    </segment>
+    <segment label="chorus" start="02:46:162" end="03:02:807" start_sec="166.162" end_sec="182.807" instrumental="NA" fade="NA"/>
+    <segment label="solo" start="03:02:807" end="03:32:175" start_sec="182.807" end_sec="212.175" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

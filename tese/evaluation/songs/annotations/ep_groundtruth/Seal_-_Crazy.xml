@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Seal_-_Crazy">
+      <title>Crazy</title>
+      <artist>Seal</artist>
+      <album year="">Seal</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="357">05:57</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+      <done_by timestamp="2007-04-23" note="modified 'break' segments">Ewald Peiszer</done_by>
+      <done_by timestamp="2007-05-17" note="joined most of verse/chorus/bridge/breaks-segments">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:18:708" start_sec="0.0000000" end_sec="18.7088440"/>
+    <segment label="intro" start="00:18:708" end="00:28:121" start_sec="18.7088440" end_sec="28.1215420">
+      <alt_label>intro_synt</alt_label>
+    </segment>
+    <segment label="intro" start="00:28:121" end="00:37:377" start_sec="28.1215420" end_sec="37.3777780">
+      <alt_label>intro_drum</alt_label>
+    </segment>
+    
+    <segment label="verse" start="00:37:377" end="01:14:857" start_sec="37.3777780" end_sec="74.857">
+	<segment label="verse" start="00:37:377" end="00:56:090" start_sec="37.3777780" end_sec="56.0901590"/>
+	<segment label="verse" start="00:56:090" end="01:14:857" start_sec="56.0901590" end_sec="74.857"/>
+    </segment>
+    <segment label="chorus" start="01:14:857" end="01:35:896" start_sec="74.8572340" end_sec="95.8963270">
+        <segment label="chorus" start="01:14:857" end="01:24:192" start_sec="74.8572340" end_sec="84.1929250"/>
+    	<segment label="chorus" start="01:24:192" end="01:33:535" start_sec="84.1929250" end_sec="93.5355100"/>
+	<segment label="break" start="01:33:535" end="01:35:896" start_sec="93.5355100" end_sec="95.8963270"/>
+    </segment>
+    
+    <segment label="verse" start="01:35:896" end="02:13:301" start_sec="95.8963270" end_sec="133.3015870">
+    	<segment label="verse" start="01:35:896" end="01:54:614" start_sec="95.8963270" end_sec="114.6148750"/>
+	<segment label="verse" start="01:54:614" end="02:13:301" start_sec="114.6148750" end_sec="133.3015870">
+		<alt_label>verse2</alt_label>
+	</segment>
+    </segment>
+    <segment label="chorus" start="02:13:301" end="02:43:900" start_sec="133.3015870" end_sec="163.900">
+    	<segment label="chorus" start="02:13:301" end="02:22:699" start_sec="133.3015870" end_sec="142.6990480"/>
+	<segment label="chorus" start="02:22:699" end="02:32:061" start_sec="142.6990480" end_sec="152.0610430"/>
+	<segment label="chorus" start="02:32:061" end="02:41:414" start_sec="152.0610430" end_sec="161.4144220">
+		<alt_label>chorus2</alt_label>
+	</segment>
+	<segment label="break" start="02:41:414" end="02:43:900" start_sec="161.4144220" end_sec="163.900"/>
+    </segment>
+    <segment label="interlude" start="02:43:900" end="03:21:168" start_sec="163.900" end_sec="201.1681630">
+	<segment label="interlude" start="02:43:900" end="02:53:047" start_sec="163.900" end_sec="173.0471660">
+		<alt_label>interlude_drum</alt_label>
+	</segment>
+	<segment label="interlude" start="02:53:047" end="03:02:429" start_sec="173.0471660" end_sec="182.4299320">
+		<alt_label>interlude_piano</alt_label>
+	</segment>
+	<segment label="interlude" start="03:02:429" end="03:21:168" start_sec="182.4299320" end_sec="201.1681630">
+		<alt_label>interlude_soft</alt_label>
+	</segment>
+    </segment>
+    <segment label="bridge" start="03:21:168" end="04:00:969" start_sec="201.1681630" end_sec="240.9697960">
+    	<segment label="bridge" start="03:21:168" end="03:39:914" start_sec="201.1681630" end_sec="219.9146490"/>
+	<segment label="bridge" start="03:39:914" end="03:58:628" start_sec="219.9146490" end_sec="238.6288440"/>
+	<segment label="break" start="03:58:628" end="04:00:969" start_sec="238.6288440" end_sec="240.9697960"/>
+    </segment>
+
+    <segment label="chorus" start="04:00:969" end="04:19:637" start_sec="240.9697960" end_sec="259.6376420">
+    	<segment label="chorus" start="04:00:969" end="04:10:323" start_sec="240.9697960" end_sec="250.3236280"/>
+	<segment label="chorus" start="04:10:323" end="04:19:637" start_sec="250.3236280" end_sec="259.6376420"/>
+    </segment>
+    <segment label="chorus" start="04:19:637" end="04:50:080" start_sec="259.6376420" end_sec="290.0803630">
+    	<segment label="chorus" start="04:19:637" end="04:28:999" start_sec="259.6376420" end_sec="268.9990930"/>
+	<segment label="chorus" start="04:28:999" end="04:38:349" start_sec="268.9990930" end_sec="278.3499320"/>
+	<segment label="chorus" start="04:38:349" end="04:47:740" start_sec="278.3499320" end_sec="287.7400450">
+		<alt_label>chorus2</alt_label>
+	</segment>
+	<segment label="break" start="04:47:740" end="04:50:080" start_sec="287.7400450" end_sec="290.0803630"/>
+    </segment>
+    <segment label="interlude" start="04:50:080" end="05:44:157" start_sec="290.0803630" end_sec="344.1578230">
+	    <segment label="interlude" start="04:50:080" end="04:59:453" start_sec="290.0803630" end_sec="299.4537870">
+	    	<alt_label>interlude_drum</alt_label>
+	    </segment>
+	    <segment label="interlude" start="04:59:453" end="05:17:700" start_sec="299.4537870" end_sec="317.7">
+	    	<alt_label>interlude_soft</alt_label>
+	    </segment>
+	    <segment label="interlude" start="05:17:700" end="05:44:157" start_sec="317.7" end_sec="344.1578230">
+	    	<alt_label>interlude_soft</alt_label>
+	    </segment>
+    </segment>
+  </segmentation>
+</SegmXML>

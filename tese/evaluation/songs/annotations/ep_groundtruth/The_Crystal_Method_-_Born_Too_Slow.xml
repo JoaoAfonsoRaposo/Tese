@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="The_Crystal_Method_-_Born_Too_Slow.22050.wav">
+      <title>Born Too Slow</title>
+      <artist>The Crystal Method</artist>
+      <album year="2004">Legion Of Boom</album>
+      <genre>additional/Rock</genre>
+      <duration duration_sec="179.855208333333">02:59</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Andrei Grecu</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:00:000" end="00:14:812" start_sec="0.0000000" end_sec="14.8127225"/>
+    <segment label="Verse" start="00:14:812" end="00:29:495" start_sec="14.8127225" end_sec="29.4959220"/>
+    <segment label="Chorus" start="00:29:495" end="00:44:187" start_sec="29.4959220" end_sec="44.1874108"/>
+    <segment label="chorus" start="00:44:187" end="00:58:971" start_sec="44.1874108" end_sec="58.9715710">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="chorus" start="00:58:971" end="01:13:812" start_sec="58.9715710" end_sec="73.8129667">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="Verse" start="01:13:812" end="01:28:512" start_sec="73.8129667" end_sec="88.5120301"/>
+    <segment label="Chorus" start="01:28:512" end="01:43:153" start_sec="88.5120301" end_sec="103.1533032"/>
+    <segment label="Bridge" start="01:43:153" end="01:58:200" start_sec="103.1533032" end_sec="118.2002234"/>
+    <segment label="chorus" start="01:58:200" end="02:12:655" start_sec="118.2002234" end_sec="132.6551126">
+      <alt_label>chorus2</alt_label>
+    </segment>
+    <segment label="verse" start="02:12:655" end="02:27:625" start_sec="132.6551126" end_sec="147.6259334"/>
+    <segment label="Verse" start="02:27:625" end="02:42:533" start_sec="147.6259334" end_sec="162.5337162"/>
+    <segment label="Outro" start="02:42:533" end="02:59:430" start_sec="162.5337162" end_sec="179.4305817"/>
+  </segmentation>
+</SegmXML>

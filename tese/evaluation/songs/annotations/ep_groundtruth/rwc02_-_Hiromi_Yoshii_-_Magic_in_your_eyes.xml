@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc02_-_Hiromi_Yoshii_-_Magic_in_your_eyes.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="222">03:42</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:09:644" start_sec="0" end_sec="9.644" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="00:09:644" end="00:16:841" start_sec="9.644" end_sec="16.841" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="00:19:241" end="00:26:440" start_sec="19.241" end_sec="26.44" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:28:833" end="01:33:646" start_sec="28.833" end_sec="93.646" instrumental="NA" fade="NA"/>
+    <segment label="solo" start="01:33:646" end="01:52:845" start_sec="93.646" end_sec="112.845" instrumental="NA" fade="NA"/>
+    <segment label="intro" start="01:52:845" end="02:02:444" start_sec="112.845" end_sec="122.444" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="02:02:444" end="02:09:647" start_sec="122.444" end_sec="129.647" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="02:12:028" end="03:16:818" start_sec="132.028" end_sec="196.818" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="03:16:818" end="03:24:043" start_sec="196.818" end_sec="204.043" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

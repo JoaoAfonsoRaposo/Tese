@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_Getting_Better">
+      <title>Getting Better</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="168">02:48</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="Intro" start="00:00:000" end="00:08:771" start_sec="0.0000000" end_sec="8.7719040"/>
+    <segment label="Verse" start="00:08:771" end="00:24:840" start_sec="8.7719040" end_sec="24.8401130"/>
+    <segment label="chorus" start="00:24:840" end="00:40:792" start_sec="24.8401130" end_sec="40.7922220"/>
+    <segment label="Verse" start="00:40:792" end="01:00:424" start_sec="40.7922220" end_sec="60.4246930"/>
+    <segment label="chorus" start="01:00:424" end="01:16:132" start_sec="60.4246930" end_sec="76.1329930"/>
+    <segment label="Bridge" start="01:16:132" end="01:35:742" start_sec="76.1329930" end_sec="95.7422440"/>
+    <segment label="Verse" start="01:35:742" end="01:57:313" start_sec="95.7422440" end_sec="117.3135820"/>
+    <segment label="chorus" start="01:57:313" end="02:12:940" start_sec="117.3135820" end_sec="132.9406120"/>
+    <segment label="Bridge" start="02:12:940" end="02:36:439" start_sec="132.9406120" end_sec="156.4392060"/>
+    <segment label="Outro" start="02:36:439" end="02:47:771" start_sec="156.4392060" end_sec="167.7713693"/>
+  </segmentation>
+</SegmXML>

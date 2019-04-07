@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_All_Ive_Got_To_Do">
+      <title>All I've Got To Do</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="125">02:04</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="verse" start="00:00:497" end="00:25:409" start_sec="0.4978379" end_sec="25.4092955"/>
+    <segment label="verse" start="00:25:409" end="00:47:817" start_sec="25.4092955" end_sec="47.8175640"/>
+    <segment label="chorus" start="00:47:817" end="01:05:504" start_sec="47.8175640" end_sec="65.5049210">
+      <alt_label>bridge</alt_label>
+    </segment>
+    <segment label="verse" start="01:05:504" end="01:28:154" start_sec="65.5049210" end_sec="88.1545800"/>
+    <segment label="chorus" start="01:28:154" end="01:49:466" start_sec="88.1545800" end_sec="109.4662298">
+      <alt_label>bridge</alt_label>
+    </segment>
+    <segment label="verse_outro" start="01:49:466" end="02:00:304" start_sec="109.4662298" end_sec="120.3044411"/>
+  </segmentation>
+</SegmXML>

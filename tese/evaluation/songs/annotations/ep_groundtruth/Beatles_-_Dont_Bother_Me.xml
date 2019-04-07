@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_Dont_Bother_Me">
+      <title>Don't Bother Me</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="149">02:29</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:536" end="00:06:193" start_sec="0.5361331" end_sec="6.1937340"/>
+    <segment label="verse" start="00:06:193" end="00:23:202" start_sec="6.1937340" end_sec="23.2023510"/>
+    <segment label="verse" start="00:23:202" end="00:40:083" start_sec="23.2023510" end_sec="40.0832580"/>
+    <segment label="bridge" start="00:40:083" end="01:02:444" start_sec="40.0832580" end_sec="62.4440740">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="01:02:444" end="01:19:278" start_sec="62.4440740" end_sec="79.2785420"/>
+    <segment label="verse" start="01:19:278" end="01:36:066" start_sec="79.2785420" end_sec="96.0665690">
+      <alt_label>verse_half_solo</alt_label>
+    </segment>
+    <segment label="bridge" start="01:36:066" end="01:57:680" start_sec="96.0665690" end_sec="117.6803424">
+      <alt_label>chorus</alt_label>
+    </segment>
+    <segment label="verse" start="01:57:680" end="02:15:366" start_sec="117.6803424" end_sec="135.3663420"/>
+    <segment label="outro" start="02:15:366" end="02:24:181" start_sec="135.3663420" end_sec="144.1815123"/>
+  </segmentation>
+</SegmXML>

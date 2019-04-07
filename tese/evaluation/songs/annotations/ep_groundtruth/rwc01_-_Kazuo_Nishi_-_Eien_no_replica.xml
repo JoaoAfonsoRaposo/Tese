@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc01_-_Kazuo_Nishi_-_Eien_no_replica.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="209">03:29</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="orchestra_hits" start="00:09:076" end="00:10:601" start_sec="9.076" end_sec="10.601" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:10:601" end="00:23:191" start_sec="10.601" end_sec="23.191" instrumental="NA" fade="NA"/>
+    <segment label="interlude" start="00:23:191" end="00:30:305" start_sec="23.191" end_sec="30.305" instrumental="NA" fade="NA"/>
+    <segment label="interlude" start="00:30:305" end="00:37:413" start_sec="30.305" end_sec="37.413" instrumental="NA" fade="NA"/>
+    <segment label="C" start="00:37:413" end="00:51:630" start_sec="37.413" end_sec="51.63" instrumental="NA" fade="NA"/>
+    <segment label="D" start="00:51:630" end="01:04:189" start_sec="51.63" end_sec="64.189" instrumental="NA" fade="NA"/>
+    <segment label="orchestra_hits" start="01:04:189" end="01:05:819" start_sec="64.189" end_sec="65.819" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:05:819" end="01:18:304" start_sec="65.819" end_sec="78.304" instrumental="NA" fade="NA"/>
+    <segment label="interlude" start="01:18:304" end="01:25:413" start_sec="78.304" end_sec="85.413" instrumental="NA" fade="NA"/>
+    <segment label="C" start="01:25:413" end="01:39:633" start_sec="85.413" end_sec="99.633" instrumental="NA" fade="NA"/>
+    <segment label="D" start="01:39:633" end="01:52:190" start_sec="99.633" end_sec="112.19" instrumental="NA" fade="NA"/>
+    <segment label="orchestra_hits" start="01:52:190" end="01:53:631" start_sec="112.19" end_sec="113.631" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:53:631" end="02:06:355" start_sec="113.631" end_sec="126.355" instrumental="NA" fade="NA"/>
+    <segment label="solo" start="02:06:355" end="02:29:405" start_sec="126.355" end_sec="149.405" instrumental="NA" fade="NA"/>
+    <segment label="D" start="02:29:405" end="02:41:963" start_sec="149.405" end_sec="161.963" instrumental="NA" fade="NA">
+      <alt_label>breakdown</alt_label>
+    </segment>
+    <segment label="orchestra_hits" start="02:41:963" end="02:43:633" start_sec="161.963" end_sec="163.633" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="02:43:633" end="02:56:074" start_sec="163.633" end_sec="176.074" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="02:56:074" end="03:08:523" start_sec="176.074" end_sec="188.523" instrumental="NA" fade="NA"/>
+    <segment label="interlude" start="03:08:523" end="03:15:632" start_sec="188.523" end_sec="195.632" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

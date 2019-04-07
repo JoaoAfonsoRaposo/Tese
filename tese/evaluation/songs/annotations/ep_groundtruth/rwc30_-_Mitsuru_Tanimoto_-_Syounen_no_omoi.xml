@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc30_-_Mitsuru_Tanimoto_-_Syounen_no_omoi.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="196">03:16</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:248" end="00:13:711" start_sec="0.248" end_sec="13.711" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="00:13:711" end="00:31:654" start_sec="13.711" end_sec="31.654" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:31:654" end="01:07:526" start_sec="31.654" end_sec="67.526" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="01:07:526" end="01:25:488" start_sec="67.526" end_sec="85.488" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:25:488" end="02:01:374" start_sec="85.488" end_sec="121.374" instrumental="NA" fade="NA"/>
+    <segment label="C" start="02:01:374" end="02:19:318" start_sec="121.374" end_sec="139.318" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="02:19:318" end="02:55:207" start_sec="139.318" end_sec="175.207" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

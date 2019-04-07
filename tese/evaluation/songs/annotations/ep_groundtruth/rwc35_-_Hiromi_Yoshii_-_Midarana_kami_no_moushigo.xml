@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc35_-_Hiromi_Yoshii_-_Midarana_kami_no_moushigo.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="193">03:13</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:02:957" end="00:08:430" start_sec="2.957" end_sec="8.43" instrumental="NA" fade="NA"/>
+    <segment label="theme" start="00:08:430" end="00:14:076" start_sec="8.43" end_sec="14.076" instrumental="NA" fade="NA"/>
+    <segment label="theme" start="00:14:076" end="00:19:726" start_sec="14.076" end_sec="19.726" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:19:726" end="00:43:684" start_sec="19.726" end_sec="43.684" instrumental="NA" fade="NA">
+      <segment label="A" start="00:19:726" end="00:30:985" start_sec="19.726" end_sec="30.985"/>
+      <segment label="B" start="00:30:985" end="00:43:684" start_sec="30.985" end_sec="43.684"/>
+    </segment>
+    <segment label="chorus" start="00:43:684" end="01:06:259" start_sec="43.684" end_sec="66.259" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:06:259" end="01:30:226" start_sec="66.259" end_sec="90.226" instrumental="NA" fade="NA">
+      <segment label="A" start="01:06:259" end="01:17:567" start_sec="66.259" end_sec="77.567"/>
+      <segment label="B" start="01:17:567" end="01:30:226" start_sec="77.567" end_sec="90.226"/>
+    </segment>
+    <segment label="chorus" start="01:30:226" end="01:52:805" start_sec="90.226" end_sec="112.805" instrumental="NA" fade="NA"/>
+    <segment label="solo" start="01:52:805" end="02:15:562" start_sec="112.805" end_sec="135.562" instrumental="NA" fade="NA"/>
+    <segment label="intro" start="02:15:562" end="02:21:056" start_sec="135.562" end_sec="141.056" instrumental="NA" fade="NA"/>
+    <segment label="theme" start="02:21:056" end="02:26:696" start_sec="141.056" end_sec="146.696" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="02:26:696" end="02:37:969" start_sec="146.696" end_sec="157.969" instrumental="NA" fade="NA">
+      <segment label="A" start="02:26:696" end="02:37:969" start_sec="146.696" end_sec="157.969"/>
+    </segment>
+  </segmentation>
+</SegmXML>

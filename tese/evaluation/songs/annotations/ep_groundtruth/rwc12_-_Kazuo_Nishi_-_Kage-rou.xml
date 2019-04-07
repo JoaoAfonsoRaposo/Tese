@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song filename="rwc12_-_Kazuo_Nishi_-_Kage-rou.22050.wav">
+      <title></title>
+      <artist></artist>
+      <album year=""></album>
+      <genre>additional/RWCpop</genre>
+      <duration duration_sec="204">03:24</duration>
+      <musicbrainz_trackID></musicbrainz_trackID>
+    </song>
+    <annotation source="ground truth">
+      <done_by note="author(s)">Jouni Paulus, Anssi Klapuri</done_by>
+      <done_by note="adapted: added missing segments">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:16:048" start_sec="0" end_sec="16.048" instrumental="NA" fade="NA">
+    	<alt_label>main_riff</alt_label>
+	<remark>like main_riff but pitch goes down at the end</remark>
+    </segment>
+    <segment label="main_riff" start="00:16:048" end="00:34:042" start_sec="16.048" end_sec="34.042" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="00:34:042" end="01:06:046" start_sec="34.042" end_sec="66.046" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="01:06:046" end="01:38:047" start_sec="66.046" end_sec="98.047" instrumental="NA" fade="NA"/>
+    <segment label="main_riff" start="01:38:047" end="01:56:049" start_sec="98.047" end_sec="116.049" instrumental="NA" fade="NA"/>
+    <segment label="verse" start="01:56:049" end="02:27:694" start_sec="116.049" end_sec="147.694" instrumental="NA" fade="NA"/>
+    <segment label="chorus" start="02:27:694" end="02:59:000" start_sec="147.694" end_sec="179" instrumental="NA" fade="NA"/>
+    <segment label="outro" start="02:59:000" end="03:20:000" start_sec="179" end_sec="200" instrumental="NA" fade="NA"/>
+  </segmentation>
+</SegmXML>

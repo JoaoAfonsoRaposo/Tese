@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo Hello, world!
+
+python3 gatherResults.py  "segmentino"
+python3 gatherResults.py  "qm_segmenter"

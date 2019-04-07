@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Beatles_-_I_Wanna_Be_Your_Man">
+      <title>I Wanna Be Your Man</title>
+      <artist>Beatles</artist>
+      <album year="1963">With The Beatles</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="119">01:59</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="verse" start="00:00:421" end="00:20:621" start_sec="0.4212474" end_sec="20.6216890"/>
+    <segment label="chorus" start="00:20:621" end="00:31:546" start_sec="20.6216890" end_sec="31.5466780"/>
+    <segment label="verse" start="00:31:546" end="00:51:074" start_sec="31.5466780" end_sec="51.0746600"/>
+    <segment label="chorus" start="00:51:074" end="01:02:022" start_sec="51.0746600" end_sec="62.0228680"/>
+    <segment label="break" start="01:02:022" end="01:16:233" start_sec="62.0228680" end_sec="76.2334800"/>
+    <segment label="verse" start="01:16:233" end="01:35:506" start_sec="76.2334800" end_sec="95.5060430"/>
+    <segment label="chorus" start="01:35:506" end="01:46:454" start_sec="95.5060430" end_sec="106.4542510"/>
+    <segment label="outro" start="01:46:454" end="01:55:013" start_sec="106.4542510" end_sec="115.0130000"/>
+  </segmentation>
+</SegmXML>

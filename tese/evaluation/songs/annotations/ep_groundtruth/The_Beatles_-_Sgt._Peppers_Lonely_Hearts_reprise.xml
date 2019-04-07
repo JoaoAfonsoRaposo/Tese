@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="The_Beatles_-_Sgt._Peppers_Lonely_Hearts_reprise">
+      <title>Sgt. Pepper's Lonely Hearts .. Reprise</title>
+      <artist>The Beatles</artist>
+      <album year="1967">Sgt. Pepper's Lonely Hearts ..</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="79">01:19</duration>
+    <genre>Beatles/queen_mary_corpus</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:20:532" start_sec="0.0000000" end_sec="20.5328110"/>
+    <segment label="chorus" start="00:20:532" end="00:44:820" start_sec="20.5328110" end_sec="44.8208840">
+      <alt_label>chorusA</alt_label>
+    </segment>
+    <segment label="chorus" start="00:44:820" end="01:18:869" start_sec="44.8208840" end_sec="78.8690105">
+      <alt_label>chorusB</alt_label>
+    </segment>
+  </segmentation>
+</SegmXML>

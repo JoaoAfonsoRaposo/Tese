@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SegmXML version="1.0">
+  <metadata>
+    <song canonicalname="Cranberries_-_Zombie">
+      <title>Zombie</title>
+      <artist>The Cranberries</artist>
+      <album year="">No Need to Argue</album>
+      <musicbrainz_trackID/>
+      <duration duration_sec="306">05:06</duration>
+    <genre>Rock/queen_mary_corpus/qmul14</genre></song>
+    <annotation source="ground truth">
+      <done_by note="primary author(s)">Mark Levy/Geoffroy Peeters/Katy Noland</done_by>
+      <done_by timestamp="2007-02-24" note="adapted by">Ewald Peiszer</done_by>
+    </annotation>
+  </metadata>
+  <segmentation>
+    <segment label="intro" start="00:00:000" end="00:13:152" start_sec="0.0000000" end_sec="13.1528340">
+      <alt_label>intro_guitar</alt_label>
+    </segment>
+    <segment label="bridge" start="00:13:152" end="00:48:516" start_sec="13.1528340" end_sec="48.5167350">
+      <segment label="wall_guitar" start="00:13:152" end="00:36:843" start_sec="13.1528340" end_sec="36.8434470"/>
+      <segment label="break" start="00:36:843" end="00:48:516" start_sec="36.8434470" end_sec="48.5167350"/>
+    </segment>
+    <segment label="verse" start="00:48:516" end="01:34:263" start_sec="48.5167350" end_sec="94.2639178">
+      <segment label="A" start="00:48:516" end="01:10:292" start_sec="48.5167350" end_sec="70.2920400"/>
+      <segment label="B" start="01:10:292" end="01:34:263" start_sec="70.2920400" end_sec="94.2639178"/>
+    </segment>
+    <segment label="chorus" start="01:34:263" end="01:46:393" start_sec="94.2639178" end_sec="106.3931149"/>
+    <segment label="chorus" start="01:46:393" end="01:58:158" start_sec="106.3931149" end_sec="118.1580950"/>
+    <segment label="bridge" start="01:58:158" end="02:21:048" start_sec="118.1580950" end_sec="141.0486367">
+      <segment label="wall_guitar" start="01:58:158" end="02:09:747" start_sec="118.1580950" end_sec="129.7474830"/>
+      <segment label="break" start="02:09:747" end="02:21:048" start_sec="129.7474830" end_sec="141.0486367"/>
+    </segment>
+    <segment label="verse" start="02:21:048" end="03:06:580" start_sec="141.0486367" end_sec="186.5800161">
+      <segment label="A" start="02:21:048" end="02:44:032" start_sec="141.0486367" end_sec="164.0329711"/>
+      <segment label="B" start="02:44:032" end="03:06:580" start_sec="164.0329711" end_sec="186.5800161"/>
+    </segment>
+    <segment label="chorus" start="03:06:580" end="03:18:384" start_sec="186.5800161" end_sec="198.3847271"/>
+    <segment label="chorus" start="03:18:384" end="03:30:065" start_sec="198.3847271" end_sec="210.0650340"/>
+    <segment label="chorus" start="03:30:065" end="03:41:252" start_sec="210.0650340" end_sec="221.2526131">
+      <alt_label>wall_guitar</alt_label>
+    </segment>
+    <segment label="chorus" start="03:41:252" end="03:52:742" start_sec="221.2526131" end_sec="232.7427660">
+      <alt_label>wall_guitar</alt_label>
+    </segment>
+    <segment label="break" start="03:52:742" end="04:03:718" start_sec="232.7427660" end_sec="243.7183670"/>
+    <segment label="solo" start="04:03:718" end="04:14:159" start_sec="243.7183670" end_sec="254.1595918" instrumental="true">
+    </segment>
+    <segment label="solo" start="04:14:159" end="04:25:262" start_sec="254.1595918" end_sec="265.2623529" instrumental="true">
+      <alt_label>wall_guitar</alt_label>
+    </segment>
+    <segment label="solo" start="04:25:262" end="04:36:664" start_sec="265.2623529" end_sec="276.6645800" instrumental="true">
+      <alt_label>wall_guitar</alt_label>
+    </segment>
+    <segment label="final" start="04:36:664" end="04:47:656" start_sec="276.6645800" end_sec="287.6567800"/>
+    <segment label="bass" start="04:47:656" end="05:03:993" start_sec="287.6567800" end_sec="303.9935600"/>
+  </segmentation>
+</SegmXML>
