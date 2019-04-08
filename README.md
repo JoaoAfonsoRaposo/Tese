@@ -1,1 +1,1 @@
-This is a git repository aimed for a thesis development on Structural Segmentation of Music
+This is a git repository for developing a thesis on Structural Segmentation of Music
