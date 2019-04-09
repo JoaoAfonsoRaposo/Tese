@@ -80,151 +80,114 @@ gtFiles_INESC=(${GTFILESPATH_INESC}*)
 
 
 
-echo TheBeatles!!!
+echo The Beatles!
 
 #11Abbey_Road
 for ((i=0; i<${#segmentinoFiles_AR[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_AR[$i]}" "segmentino" "${gtFiles_AR[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_AR[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_AR[$i]}" "qm_segmenter" "${gtFiles_AR[$i]}" "gt"
 done
 
-echo AbbeyRoad, done!
+echo "  AbbeyRoad, done!"
 
 #01PleasePleaseMe
 for ((i=0; i<${#segmentinoFiles_PPM[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_PPM[$i]}" "segmentino" "${gtFiles_PPM[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_PPM[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_PPM[$i]}" "qm_segmenter" "${gtFiles_PPM[$i]}" "gt"
 done
 
 
-echo PleasePleaseMe, done!
+echo "  PleasePleaseMe, done!"
 
 #07Revolver
 for ((i=0; i<${#segmentinoFiles_R[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_R[$i]}" "segmentino" "${gtFiles_R[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_R[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_R[$i]}" "qm_segmenter" "${gtFiles_R[$i]}" "gt"
 done
 
 
-echo Revolver, done!
+echo "  Revolver, done!"
 
 #06RubberSoul
 for ((i=0; i<${#segmentinoFiles_RS[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_RS[$i]}" "segmentino" "${gtFiles_RS[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_RS[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_RS[$i]}" "qm_segmenter" "${gtFiles_RS[$i]}" "gt"
 done
 
 
-echo RubberSoul, done!
+echo "  RubberSoul, done!"
 
 
 #09MagicalMisteryTour
 for ((i=0; i<${#segmentinoFiles_MMT[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_MMT[$i]}" "segmentino" "${gtFiles_MMT[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_MMT[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_MMT[$i]}" "qm_segmenter" "${gtFiles_MMT[$i]}" "gt"
 done
 
 
-echo MagicalMisteryTour, done!
+echo "  MagicalMisteryTour, done!"
 
 #12LetItBe
 for ((i=0; i<${#segmentinoFiles_LIB[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_LIB[$i]}" "segmentino" "${gtFiles_LIB[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_LIB[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_LIB[$i]}" "qm_segmenter" "${gtFiles_LIB[$i]}" "gt"
 done
 
 
-echo LetItBe, done!
+echo "  LetItBe, done!"
 
 
 #05Help
 for ((i=0; i<${#segmentinoFiles_H[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_H[$i]}" "segmentino" "${gtFiles_H[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_H[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_H[$i]}" "qm_segmenter" "${gtFiles_H[$i]}" "gt"
 done
 
 
-echo Help, done!
+echo "  Help, done!"
 
 
 #04BeatlesforSale
 for ((i=0; i<${#segmentinoFiles_BFS[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_BFS[$i]}" "segmentino" "${gtFiles_BFS[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_BFS[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_BFS[$i]}" "qm_segmenter" "${gtFiles_BFS[$i]}" "gt"
 done
 
 
-echo BeatlesForSale, done!
+echo "  BeatlesForSale, done!"
 
 
 #03AHardDaysNight
 for ((i=0; i<${#segmentinoFiles_HDN[@]}; i++));
 do
     python3 main.py "${segmentinoFiles_HDN[$i]}" "segmentino" "${gtFiles_HDN[$i]}" "gt"
-done
-
-for ((i=0; i<${#qmsegmenterFiles_HDN[@]}; i++));
-do
     python3 main.py "${qmsegmenterFiles_HDN[$i]}" "qm_segmenter" "${gtFiles_HDN[$i]}" "gt"
 done
 
 
-echo AHardDaysNight, done!
+echo "  AHardDaysNight, done!"
+
+echo "The Beatles, done!"
+#CORPUS_INESC!!
 
 
-#corpus_inesc
-for ((i=0; i<${#segmentinoFiles_INESC[@]}; i++));
-do
-    python3 main.py "${segmentinoFiles_INESC[$i]}" "segmentino" "${gtFiles_INESC[$i]}" "gt_xml"
-done
 
-for ((i=0; i<${#qmsegmenterFiles_INESC[@]}; i++));
-do
-    python3 main.py "${qmsegmenterFiles_INESC[$i]}" "qm_segmenter" "${gtFiles_INESC[$i]}" "gt_xml"
-done
+#for ((i=0; i<${#segmentinoFiles_INESC[@]}; i++));
+#do
+#    python3 main.py "${segmentinoFiles_INESC[$i]}" "segmentino" "${gtFiles_INESC[$i]}" "gt_xml"
+#    python3 main.py "${qmsegmenterFiles_INESC[$i]}" "qm_segmenter" "${gtFiles_INESC[$i]}" "gt_xml"
+#done
 
 
-echo corpus_inesc, done!
+#echo corpus_inesc, done!
 
 
 #Aggregate results by segmenter
