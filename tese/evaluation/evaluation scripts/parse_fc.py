@@ -22,17 +22,24 @@ def parse_qm_segmenter_file(inputFile):
         line1 = inFile.readline()
         pos = inFile.tell()
         line2 = inFile.readline()
-        inFile.seek(pos)
         if not line2:
             break
+        inFile.seek(pos)
         line1 = line1.split(",")
         line2 = line2.split(",")
         start_time = float(line1[0])
         end_time = float(line2[0])
-        seg = segs.get(line1[1]) 
+        seg = segs.get(line1[1])
         if seg == None:
             segs[line1[1]] = []
         segs[line1[1]].append([start_time, end_time])
+        if len(line2) == 4:
+            start_time = float(line2[0])
+            end_time = float(line2[3])
+            seg = segs.get(line2[1]) 
+            if seg == None:
+                segs[line2[1]] = []
+            segs[line2[1]].append([start_time, end_time])
     return segs
 
 def parse_gt_file(inputFile):

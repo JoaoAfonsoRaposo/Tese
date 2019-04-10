@@ -3,8 +3,6 @@ import frameClustering
 import boundaryRetrieval
 
 def main(algFile, algName, gtFile, gtName):
-   # if algName == 'qm_segmenter':
-    #    editQMFile(algFile, gtFile)
     fc_results = frameClustering.frameClustering(algFile, algName, gtFile, gtName)
     br_results = boundaryRetrieval.boundaryRetrieval(algFile, algName, gtFile, gtName)
     outputPath = setFileOutputPath(algFile, algName)
@@ -30,14 +28,6 @@ def setFileOutputPath(filePath, algName):
     outputPath = 'Results/' + algName + '/' + path
     return outputPath
 
-def editQMFile(qmFile, gtFile):
-    gtf = open(gtFile, 'r'):
-    lines = gtf.read().splitlines()
-    last_line = lines[-1]
-    end_time = last_line[1]
-    qmf = open(qmFile, 'a')
-    qmf.write(end_time)
-    
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])	
 
