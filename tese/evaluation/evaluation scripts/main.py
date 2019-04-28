@@ -17,6 +17,7 @@ def writeResults(outputPath, fc_results, br_results):
     for result in br_results:
         outFile.write(str(result))
         outFile.write('\t')
+
     
 def setFileOutputPath(filePath, algName):
     i = 0
