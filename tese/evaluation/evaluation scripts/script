@@ -1,4 +1,5 @@
 #!/bin/bash
+#script for evaluating algortihms' segmentations (currently: segmentino and qm_segmenter)
 
 echo Hello, world!
 

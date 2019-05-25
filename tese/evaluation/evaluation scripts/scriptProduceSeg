@@ -1,0 +1,126 @@
+#!/bin/bash
+
+echo Hello, world!
+
+
+SEGMENTINOFILESPATH_PPM=../songs/algorithms_segmentation/segmentino/The_Beatles/PleasePleaseMe/
+QMSEGFILESPATH_PPM=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/PleasePleaseMe/
+
+SEGMENTINOFILESPATH_HDN=../songs/algorithms_segmentation/segmentino/The_Beatles/AHardDaysNight/
+QMSEGFILESPATH_HDN=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AHardDaysNight/
+
+SEGMENTINOFILESPATH_BFS=../songs/algorithms_segmentation/segmentino/The_Beatles/BeatlesForSale/
+QMSEGFILESPATH_BFS=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/BeatlesForSale/
+
+SEGMENTINOFILESPATH_H=../songs/algorithms_segmentation/segmentino/The_Beatles/Help/
+QMSEGFILESPATH_H=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Help/
+
+SEGMENTINOFILESPATH_RS=../songs/algorithms_segmentation/segmentino/The_Beatles/RubberSoul/
+QMSEGFILESPATH_RS=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/RubberSoul/
+
+SEGMENTINOFILESPATH_R=../songs/algorithms_segmentation/segmentino/The_Beatles/Revolver/
+QMSEGFILESPATH_R=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Revolver/
+
+SEGMENTINOFILESPATH_MMT=../songs/algorithms_segmentation/segmentino/The_Beatles/MagicalMisteryTour/
+QMSEGFILESPATH_MMT=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/MagicalMisteryTour/
+
+SEGMENTINOFILESPATH_AR=../songs/algorithms_segmentation/segmentino/The_Beatles/AbbeyRoad/
+QMSEGFILESPATH_AR=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AbbeyRoad/
+
+SEGMENTINOFILESPATH_LIB=../songs/algorithms_segmentation/segmentino/The_Beatles/LetItBe/
+QMSEGFILESPATH_LIB=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/LetItBe/
+
+#11Abbey_Road
+for ((i=0; i<${#segmentinoFiles_AR[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_AR[$i]}" "segmentino" "${gtFiles_AR[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_AR[$i]}" "qm_segmenter" "${gtFiles_AR[$i]}" "gt"
+done
+
+echo "  AbbeyRoad, done!"
+
+#01PleasePleaseMe
+for ((i=0; i<${#segmentinoFiles_PPM[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_PPM[$i]}" "segmentino" "${gtFiles_PPM[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_PPM[$i]}" "qm_segmenter" "${gtFiles_PPM[$i]}" "gt"
+done
+
+
+echo "  PleasePleaseMe, done!"
+
+#07Revolver
+for ((i=0; i<${#segmentinoFiles_R[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_R[$i]}" "segmentino" "${gtFiles_R[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_R[$i]}" "qm_segmenter" "${gtFiles_R[$i]}" "gt"
+done
+
+
+echo "  Revolver, done!"
+
+#06RubberSoul
+for ((i=0; i<${#segmentinoFiles_RS[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_RS[$i]}" "segmentino" "${gtFiles_RS[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_RS[$i]}" "qm_segmenter" "${gtFiles_RS[$i]}" "gt"
+done
+
+
+echo "  RubberSoul, done!"
+
+
+#09MagicalMisteryTour
+for ((i=0; i<${#segmentinoFiles_MMT[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_MMT[$i]}" "segmentino" "${gtFiles_MMT[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_MMT[$i]}" "qm_segmenter" "${gtFiles_MMT[$i]}" "gt"
+done
+
+
+echo "  MagicalMisteryTour, done!"
+
+#12LetItBe
+for ((i=0; i<${#segmentinoFiles_LIB[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_LIB[$i]}" "segmentino" "${gtFiles_LIB[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_LIB[$i]}" "qm_segmenter" "${gtFiles_LIB[$i]}" "gt"
+done
+
+
+echo "  LetItBe, done!"
+
+
+#05Help
+for ((i=0; i<${#segmentinoFiles_H[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_H[$i]}" "segmentino" "${gtFiles_H[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_H[$i]}" "qm_segmenter" "${gtFiles_H[$i]}" "gt"
+done
+
+
+echo "  Help, done!"
+
+
+#04BeatlesforSale
+for ((i=0; i<${#segmentinoFiles_BFS[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_BFS[$i]}" "segmentino" "${gtFiles_BFS[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_BFS[$i]}" "qm_segmenter" "${gtFiles_BFS[$i]}" "gt"
+done
+
+
+echo "  BeatlesForSale, done!"
+
+
+#03AHardDaysNight
+for ((i=0; i<${#segmentinoFiles_HDN[@]}; i++));
+do
+    python3 main.py "${segmentinoFiles_HDN[$i]}" "segmentino" "${gtFiles_HDN[$i]}" "gt"
+    python3 main.py "${qmsegmenterFiles_HDN[$i]}" "qm_segmenter" "${gtFiles_HDN[$i]}" "gt"
+done
+
+
+echo "  AHardDaysNight, done!"
+
+echo "The Beatles, done!"

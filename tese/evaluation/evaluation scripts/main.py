@@ -1,3 +1,5 @@
+#evaluation regarding frame clustering (precision, recall and f-value) and boundary retrieval (precision, recall, f-value, mttg, mgtt)
+
 import sys, getopt
 import frameClustering
 import boundaryRetrieval

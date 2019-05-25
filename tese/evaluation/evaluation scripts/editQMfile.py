@@ -1,3 +1,5 @@
+#edit QM segmentation files to add the timestamp of the last segment
+
 import sys, getopt
 import pdb
 
