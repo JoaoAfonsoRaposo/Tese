@@ -44,7 +44,7 @@ def getBounds(inputFile, algorithm='gt'):
     elif algorithm == 'segmentino':
         return parse_segmentino_file(inputFile)
     elif algorithm == 'qm_segmenter':
-        return parse_qm_segmenter_file(inputFile)
+        return parse_segmentino_file(inputFile)
     else:
         print("there is no such", algorithm, "algorithm")
         return 0
