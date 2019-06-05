@@ -28,54 +28,54 @@ RS_files=(${RS}*)
 
 for ((i=0; i<${#AR_files[@]}; i++));
 do
-    python3 extractChroma.py "${AR_files[$i]}"
+    python3 segmentino_extractFeatures.py "${AR_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${AR_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/AbbeyRoad/
 done
 
 for ((i=0; i<${#AHDN_files[@]}; i++));
 do
-    python3 extractChroma.py "${AHDN_files[$i]}"
+    python3 segmentino_extractFeatures.py "${AHDN_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${AHDN_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/AHardDaysNight/
 done
 
 for ((i=0; i<${#BFS_files[@]}; i++));
 do
-    python3 extractChroma.py "${BFS_files[$i]}"
+    python3 segmentino_extractFeatures.py "${BFS_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${BFS_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/BeatlesForSale/
 done
 
 for ((i=0; i<${#H_files[@]}; i++));
 do
-    python3 extractChroma.py "${H_files[$i]}"
+    python3 segmentino_extractFeatures.py "${H_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${H_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/Help/
 done
 
 for ((i=0; i<${#LIB_files[@]}; i++));
 do
-    python3 extractChroma.py "${LIB_files[$i]}"
+    python3 segmentino_extractFeatures.py "${LIB_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${LIB_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/LetItBe/
 done
 
 for ((i=0; i<${#MMT_files[@]}; i++));
 do
-    python3 extractChroma.py "${MMT_files[$i]}"
+    python3 segmentino_extractFeatures.py "${MMT_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${MMT_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/MagicalMisteryTour/
 done
 
 for ((i=0; i<${#PPM_files[@]}; i++));
 do
-    python3 extractChroma.py "${PPM_files[$i]}"
+    python3 segmentino_extractFeatures.py "${PPM_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${PPM_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/PleasePleaseMe/
 done
 
 for ((i=0; i<${#R_files[@]}; i++));
 do
-    python3 extractChroma.py "${R_files[$i]}"
+    python3 segmentino_extractFeatures.py "${R_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${R_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/Revolver/
 done
 
 for ((i=0; i<${#RS_files[@]}; i++));
 do
-    python3 extractChroma.py "${RS_files[$i]}"
+    python3 segmentino_extractFeatures.py "${RS_files[$i]}"
     sonic-annotator -d vamp:segmentino:segmentino:segmentation "${RS_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/segmentino/The_Beatles/RubberSoul/
 done
