@@ -1,0 +1,99 @@
+#!/bin/bash
+
+#script for extracting chromas of audioFiles (currently all beatles library available in /home/joao/Music/audioFiles/The_Beatles) and producing a segmentation using qm_segmenter
+
+echo Hello, world!
+
+
+AR=/home/joao/Music/audioFiles/The_Beatles/AbbeyRoad/
+AHDN=/home/joao/Music/audioFiles/The_Beatles/AHardDaysNight/
+BFS=/home/joao/Music/audioFiles/The_Beatles/BeatlesForSale/
+H=/home/joao/Music/audioFiles/The_Beatles/Help/
+LIB=/home/joao/Music/audioFiles/The_Beatles/LetItBe/
+MMT=/home/joao/Music/audioFiles/The_Beatles/MagicalMysteryTour/
+PPM=/home/joao/Music/audioFiles/The_Beatles/PleasePleaseMe/
+R=/home/joao/Music/audioFiles/The_Beatles/Revolver/
+RS=/home/joao/Music/audioFiles/The_Beatles/RubberSoul/
+
+AR_files=(${AR}*)
+AHDN_files=(${AHDN}*)
+BFS_files=(${BFS}*)
+H_files=(${H}*)
+LIB_files=(${LIB}*)
+MMT_files=(${MMT}*)
+PPM_files=(${PPM}*)
+R_files=(${R}*)
+RS_files=(${RS}*)
+
+
+for ((i=0; i<${#AR_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${AR_files[$i]}" $1
+    python3 qm_extractFeatures.py "${AR_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${AR_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AbbeyRoad/
+done
+
+for ((i=0; i<${#AHDN_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${AHDN_files[$i]}" $1
+    python3 qm_extractFeatures.py "${AHDN_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${AHDN_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AHardDaysNight/
+done
+
+for ((i=0; i<${#BFS_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${BFS_files[$i]}" $1
+    python3 qm_extractFeatures.py "${BFS_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${BFS_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/BeatlesForSale/
+done
+
+for ((i=0; i<${#H_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${H_files[$i]}" $1
+    python3 qm_extractFeatures.py "${H_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${H_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Help/
+done
+
+for ((i=0; i<${#LIB_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${LIB_files[$i]}" $1
+    python3 qm_extractFeatures.py "${LIB_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${LIB_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/LetItBe/
+done
+
+for ((i=0; i<${#MMT_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${MMT_files[$i]}" $1
+    python3 qm_extractFeatures.py "${MMT_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${MMT_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/MagicalMisteryTour/
+done
+
+for ((i=0; i<${#PPM_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${PPM_files[$i]}" $1
+    python3 qm_extractFeatures.py "${PPM_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${PPM_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/PleasePleaseMe/
+done
+
+for ((i=0; i<${#R_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${R_files[$i]}" $1
+    python3 qm_extractFeatures.py "${R_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${R_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Revolver/
+done
+
+for ((i=0; i<${#RS_files[@]}; i++));
+do
+    python3 qm_extractFeatures.py "${RS_files[$i]}" $1
+    python3 qm_extractFeatures.py "${RS_files[$i]}" $2
+    python3 gcca.py
+    sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation "${RS_files[$i]}" -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/RubberSoul/
+done
