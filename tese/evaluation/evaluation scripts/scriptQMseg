@@ -3,28 +3,28 @@
 echo Hello, world!
 
 #PleasePleaseMe
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/PleasePleaseMe/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/PleasePleaseMe/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/PleasePleaseMe/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/PleasePleaseMe/
 
 #AHardDaysNight
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/AHardDaysNight/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AHardDaysNight/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/AHardDaysNight/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AHardDaysNight/
 
 #BeatlesForSale
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/BeatlesForSale/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/BeatlesForSale/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/BeatlesForSale/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/BeatlesForSale/
 
 #Help
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/Help/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Help/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/Help/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Help/
 
 #RubberSoul
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/RubberSoul/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/RubberSoul/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/RubberSoul/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/RubberSoul/
 
 #Revolver
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/Revolver/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Revolver/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/Revolver/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Revolver/
 
 #MagicalMisteryTour
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/MagicalMysteryTour/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/MagicalMisteryTour/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/MagicalMysteryTour/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/MagicalMisteryTour/
 
 #AbbeyRoad
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/AbbeyRoad/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AbbeyRoad/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/AbbeyRoad/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AbbeyRoad/
 
 #LetItBe
-sonic-annotator -d vamp:qm-vamp-plugins:qm-segmenter:segmentation ~/Music/audioFiles/The_Beatles/LetItBe/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/LetItBe/
+sonic-annotator -t $1 ~/Music/audioFiles/The_Beatles/LetItBe/*.mp3 -w csv --csv-force --csv-basedir ../songs/algorithms_segmentation/qm-segmenter/The_Beatles/LetItBe/
