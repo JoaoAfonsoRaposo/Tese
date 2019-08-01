@@ -1,0 +1,10 @@
+QM_SEGMENTER_TRANSFORM_UNKNOWN_4410=/afs/l2f/home/jar/vamp/QM/UNKNOWN/4410/
+
+
+transforms_4410=(${QM_SEGMENTER_TRANSFORM_UNKNOWN_4410}*)
+
+
+for ((i=0; i<=50; i+=2));
+    do
+        echo $i
+done

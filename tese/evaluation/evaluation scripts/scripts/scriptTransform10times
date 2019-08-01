@@ -1,0 +1,178 @@
+#!/bin/bash
+
+QM_SEGMENTER_TRANSFORM_5_CHROMA=/afs/l2f/home/jar/vamp/QM/5segsChroma.n3
+QM_SEGMENTER_TRANSFORM_7_CHROMA=/afs/l2f/home/jar/vamp/QM/7segsChroma.n3
+QM_SEGMENTER_TRANSFORM_10_CHROMA=/afs/l2f/home/jar/vamp/QM/10segsChroma.n3
+
+QM_SEGMENTER_TRANSFORM_5_CQT=/afs/l2f/home/jar/vamp/QM/5segsCQT.n3
+QM_SEGMENTER_TRANSFORM_7_CQT=/afs/l2f/home/jar/vamp/QM/7segsCQT.n3
+QM_SEGMENTER_TRANSFORM_10_CQT=/afs/l2f/home/jar/vamp/QM/10segsCQT.n3
+
+QM_SEGMENTER_TRANSFORM_5_MFCC=/afs/l2f/home/jar/vamp/QM/5segsMFCC.n3
+QM_SEGMENTER_TRANSFORM_7_MFCC=/afs/l2f/home/jar/vamp/QM/7segsMFCC.n3
+QM_SEGMENTER_TRANSFORM_10_MFCC=/afs/l2f/home/jar/vamp/QM/10segsMFCC.n3
+
+QM_SEGMENTER_TRANSFORM_5_4410=/afs/l2f/home/jar/vamp/QM/5segs4410_16405.n3
+QM_SEGMENTER_TRANSFORM_7_4410=/afs/l2f/home/jar/vamp/QM/7segs4410_16405.n3
+QM_SEGMENTER_TRANSFORM_10_4410=/afs/l2f/home/jar/vamp/QM/10segs4410_16405.n3
+
+QM_SEGMENTER_TRANSFORM_5_8820=/afs/l2f/home/jar/vamp/QM/5segs8820.n3
+QM_SEGMENTER_TRANSFORM_7_8820=/afs/l2f/home/jar/vamp/QM/7segs8820.n3
+QM_SEGMENTER_TRANSFORM_10_8820=/afs/l2f/home/jar/vamp/QM/10segs8820.n3
+
+cp /afs/l2f/home/jar/Documents/SegmentersSC/QMoriginal/qm-vamp-plugins.so ~/vamp
+
+# RUN 10 TIMES EACH TRANSFORM (5,7,10 SEGMENTS) FOR EACH FEATURE TYPE 
+
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_5_CHROMA"
+#     ./scriptPath "5CHROMA."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_7_CHROMA"
+#     ./scriptPath "7CHROMA."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_10_CHROMA"
+#     ./scriptPath "10CHROMA."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_5_CQT"
+#     ./scriptPath "5CQT."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_7_CQT"
+#     ./scriptPath "7CQT."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_10_CQT"
+#     ./scriptPath "10CQT."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_5_MFCC"
+#     ./scriptPath "5MFCC."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_7_MFCC"
+#     ./scriptPath "7MFCC."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMseg "$QM_SEGMENTER_TRANSFORM_10_MFCC"
+#     ./scriptPath "10MFCC."$i
+# done
+
+
+cp /afs/l2f/home/jar/Documents/SegmentersSC/QMaltered/qm-vamp-plugins.so ~/vamp
+
+
+for ((i=0; i<5; i++))
+do
+    ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_5_4410" "chroma"
+    ./scriptPath "5CHROMA_4410."$i
+done
+
+for ((i=0; i<5; i++))
+do
+    ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_7_4410" "chroma"
+    ./scriptPath "7CHROMA_4410."$i
+done
+
+for ((i=0; i<5; i++))
+do
+    ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_10_4410" "chroma"
+    ./scriptPath "10CHROMA_4410."$i
+done
+
+for ((i=0; i<5; i++))
+do
+    ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_5_4410" "chroma" 8192
+    ./scriptPath "5CHROMA_8820."$i
+done
+
+for ((i=0; i<5; i++))
+do
+    ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_7_4410" "chroma" 8192
+    ./scriptPath "7CHROMA_8820."$i
+done
+
+for ((i=0; i<5; i++))
+do
+    ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_10_4410" "chroma" 8192
+    ./scriptPath "10CHROMA_8820."$i
+done
+#--------------
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_5_8820" "chroma"
+#     ./scriptPath "5CHROMA_8820."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_7_8820" "chroma"
+#     ./scriptPath "7CHROMA_8820."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_10_8820" "chroma"
+#     ./scriptPath "10CHROMA_8820."$i
+# done
+
+#--------------
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_5_8820" "mfcc"
+#     ./scriptPath "5MFCC_8820."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_7_8820" "mfcc"
+#     ./scriptPath "7MFCC_8820."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_10_8820" "mfcc"
+#     ./scriptPath "10MFCC_8820."$i
+# done
+# 
+# #---------------
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_5_8820" "mfcc"
+#     ./scriptPath "5MFCC_8820."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_7_8820" "mfcc"
+#     ./scriptPath "7MFCC_8820."$i
+# done
+# 
+# for ((i=0; i<5; i++))
+# do
+#     ./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_10_8820" "mfcc"
+#     ./scriptPath "10MFCC_8820."$i
+# done

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+#script for extracting chromas of audioFiles (currently all beatles library available in $HOME/Music/audioFiles/The_Beatles) and producing a segmentation using qm_segmenter
+
+echo Hello, world!
+
+
+BEATLES=$HOME/Music/audioFiles/The_Beatles/
+BEATLES_SEG=../../songs/algorithms_segmentation/qm-segmenter/The_Beatles/
+
+beatles_albums_segs=(${BEATLES_SEG}*)
+beatles_albums=(${BEATLES}*)
+
+#ARG3=${3:-4096}
+#echo "hopsize: " $ARG3
+
+for ((i=0; i<${#beatles_albums[@]}; i++));
+do
+    album=(${beatles_albums[$i]}/*)
+    for ((j=0; j<${#album[@]}; j++));
+    do
+        sonic-annotator -t $1 "${album[$j]}" -w csv --csv-force --csv-basedir ${beatles_albums_segs[$i]}
+        sonic-annotator -t $2 "${album[$j]}" -w csv --csv-force --csv-basedir ${beatles_albums_segs[$i]}
+    done
+done

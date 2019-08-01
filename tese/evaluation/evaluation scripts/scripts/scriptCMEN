@@ -1,0 +1,37 @@
+#!/bin/bash
+
+#script for extracting chromas of audioFiles (currently all beatles library available in $HOME/Music/audioFiles/The_Beatles) and producing a segmentation using qm_segmenter
+
+echo Hello, world!
+
+
+BEATLES=$HOME/Music/audioFiles/The_Beatles/
+BEATLES_SEG=../../songs/algorithms_segmentation/qm-segmenter/The_Beatles/
+
+beatles_albums_segs=(${BEATLES_SEG}*)
+beatles_albums=(${BEATLES}*)
+
+
+
+for ((i=0; i<${#beatles_albums[@]}; i++));
+do
+    album=(${beatles_albums[$i]}/*)
+    for ((j=0; j<${#album[@]}; j++));
+    do
+        sonic-annotator -t $1 "${album[$j]}" -w csv --csv-force --csv-basedir ${beatles_albums_segs[$i]}
+        mv ../extractedFeatures/features.csv ../extractedFeatures/$4features.csv
+        sonic-annotator -t $2 "${album[$j]}" -w csv --csv-force --csv-basedir ${beatles_albums_segs[$i]}
+        mv ../extractedFeatures/features.csv ../extractedFeatures/$5features.csv
+        python3 ../featureExtractors/gcca.py $6 $4 $5
+        sonic-annotator -t $3 "${album[$j]}" -w csv --csv-force --csv-basedir ${beatles_albums_segs[$i]}
+    done
+done
+
+# ARG1: 1ST TRANSFORM (FEATURE1)
+# ARG2: 2ND TRANSFORM (FEATURE2)
+# ARG3: 3RD TRANSFORM (UNKNOWN)
+# ARG4: FEATURE1
+# ARG5: FEATURE2
+# ARG6: GCCA DIMENSIONS
+
+

@@ -1,0 +1,92 @@
+#!/bin/bash
+
+QM_SEGMENTER_TRANSFORM_MFCC=/afs/l2f/home/jar/vamp/QM/MFCC/
+QM_SEGMENTER_TRANSFORM_CQT=/afs/l2f/home/jar/vamp/QM/CQT/
+QM_SEGMENTER_TRANSFORM_CHROMA=/afs/l2f/home/jar/vamp/QM/Chroma/
+
+QM_SEGMENTER_TRANSFORM_UNKNOWN_4410=/afs/l2f/home/jar/vamp/QM/UNKNOWN/4410/
+QM_SEGMENTER_TRANSFORM_UNKNOWN_8820=/afs/l2f/home/jar/vamp/QM/UNKNOWN/8820/
+
+transforms_4410=(${QM_SEGMENTER_TRANSFORM_UNKNOWN_4410}*)
+transforms_8820=(${QM_SEGMENTER_TRANSFORM_UNKNOWN_8820}*)
+transforms_mfcc=(${QM_SEGMENTER_TRANSFORM_MFCC}*)
+transforms_cqt=(${QM_SEGMENTER_TRANSFORM_CQT}*)
+transforms_chroma=(${QM_SEGMENTER_TRANSFORM_CHROMA}*)
+
+cp /afs/l2f/home/jar/Documents/SegmentersSC/QMaltered/qm-vamp-plugins.so ~/vamp
+
+
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_4410[@]}; j++));
+#     do
+#         ./scriptCMAN "${transforms_chroma[$j]}" "${transforms_8820[$j]}"        
+#         ./scriptEvaluatePath "$(basename ${transforms_chroma[$j]})${i}_chroma"
+#     done
+# done
+# 
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_8820[@]}; j++));
+#     do
+#         ./scriptCMAN "${transforms_mfcc[$j]}" "${transforms_8820[$j]}"        
+#         ./scriptEvaluatePath "$(basename ${transforms_mfcc[$j]})${i}_mfcc"
+#     done
+# done
+# 
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_8820[@]}; j++));
+#     do
+#         ./scriptCMAN "${transforms_cqt[$j]}" "${transforms_8820[$j]}"       
+#         ./scriptEvaluatePath "$(basename ${transforms_cqt[$j]})${i}_cqt"
+#     done
+# done
+# 
+# 
+# #CORRECT HERE!!!
+for ((x=14; x<=20; x+=2));
+    do
+    for ((i=0; i<$1; i++));
+        do
+        for ((j=0; j<${#transforms_8820[@]}; j++));
+        do
+            ./scriptCMEN "${transforms_mfcc[$j]}" "${transforms_cqt[$j]}" "${transforms_8820[$j]}" 3 1 $x 
+            ./scriptEvaluatePath "$(basename ${transforms_8820[$j]}).${i}_gccaCQTMFCC${x}"
+        done
+    done
+done
+
+#CORRECT HERE!!!
+# for ((x=9; x<=12; x+=1));
+#     do
+#     for ((i=0; i<$1; i++));
+#         do
+#         for ((j=0; j<${#transforms_8820[@]}; j++));
+#         do
+#             ./scriptCMEN "${transforms_mfcc[$j]}" "${transforms_chroma[$j]}" "${transforms_8820[$j]}" 3 2 $x 
+#             ./scriptEvaluatePath "$(basename ${transforms_8820[$j]}).${i}_gcca_CHROMAMFCC${x}"
+#         done
+#     done
+# done
+
+
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_8820[@]}; j++));
+#     do
+#         ./scriptCMIN "${transforms_mfcc[$j]}" "${transforms_cqt[$j]}" "${transforms_8820[$j]}" 3 1
+#         ./scriptEvaluatePath "$(basename ${transforms_8820[$j]}).${i}_concatCQTMFCC"
+#     done
+# done
+# 
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_8820[@]}; j++));
+#     do
+#         ./scriptCMIN "${transforms_mfcc[$j]}" "${transforms_chroma[$j]}" "${transforms_8820[$j]}" 3 2
+#         ./scriptEvaluatePath "$(basename ${transforms_8820[$j]}).${i}_concatMFCC"
+#     done
+# done
+
+

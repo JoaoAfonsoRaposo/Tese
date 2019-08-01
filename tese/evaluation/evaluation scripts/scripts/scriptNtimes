@@ -1,0 +1,75 @@
+#!/bin/bash
+
+QM_SEGMENTER_TRANSFORM_UNKNOWN_4410=/afs/l2f/home/jar/vamp/QM/UNKNOWN/4410/
+QM_SEGMENTER_TRANSFORM_UNKNOWN_8820=/afs/l2f/home/jar/vamp/QM/UNKNOWN/8820/
+
+transforms_4410=(${QM_SEGMENTER_TRANSFORM_UNKNOWN_4410}*)
+transforms_8820=(${QM_SEGMENTER_TRANSFORM_UNKNOWN_8820}*)
+
+cp /afs/l2f/home/jar/Documents/SegmentersSC/QMaltered/qm-vamp-plugins.so ~/vamp
+
+
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_4410[@]}; j++));
+#     do
+#         ./scriptQMExtractAndSegment "${transforms_4410[$j]}" "chroma"
+#         ./scriptEvaluatePath "$(basename ${transforms_4410[$j]})${i}_chroma"
+#     done
+# done
+# 
+# 
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_8820[@]}; j++));
+#     do
+#         ./scriptQMExtractAndSegment "${transforms_8820[$j]}" "chroma"
+#         ./scriptEvaluatePath "$(basename ${transforms_8820[$j]})${i}_chroma"
+#     done
+# done
+
+
+for ((i=0; i<$1; i++));
+    do
+    for ((j=0; j<${#transforms_8820[@]}; j++));
+    do
+        ./scriptQMExtractAndSegment "${transforms_8820[$j]}" "mfcc" 
+        ./scriptEvaluatePath "$(basename ${transforms_8820[$j]})${i}_mfcc"
+    done
+done
+
+# for ((i=0; i<$1; i++));
+#     do
+#     for ((j=0; j<${#transforms_8820[@]}; j++));
+#     do
+#         ./scriptQMExtractAndSegment "${transforms_8820[$j]}" "cqt" 
+#         ./scriptEvaluatePath "$(basename ${transforms_8820[$j]})${i}_cqt"
+#     done
+# done
+# 
+# 
+#CORERECT HERE!!!
+# for ((x=20; x<=20; x+=5));
+#     do
+#     for ((i=0; i<$1; i++));
+#         do
+#         for ((j=0; j<${#transforms_8820[@]}; j++));
+#         do
+#             ./scriptQMgcca "${transforms_8820[$j]}" $x "cqt" "mfcc"
+#             ./scriptEvaluatePath "$(basename ${transforms_8820[$j]}).${i}_gccaCQTMFCC${x}"
+#         done
+#     done
+# done
+
+for ((x=3; x<=12; x+=3));
+    do
+    for ((i=0; i<$1; i++));
+        do
+        for ((j=0; j<${#transforms_8820[@]}; j++));
+        do
+            ./scriptQMgcca "${transforms_8820[$j]}" $x "chroma" "mfcc"
+            ./scriptEvaluatePath "$(basename ${transforms_8820[$j]}).${i}_gccaCHROMAMFCC${x}"
+        done
+    done
+done
+

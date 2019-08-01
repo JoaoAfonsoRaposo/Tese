@@ -1,0 +1,50 @@
+#!/bin/bash
+
+QM_SEGMENTER_TRANSFORM_5_CHROMA=/afs/l2f/home/jar/vamp/QM/5segsChroma.n3
+QM_SEGMENTER_TRANSFORM_7_CHROMA=/afs/l2f/home/jar/vamp/QM/7segsChroma.n3
+QM_SEGMENTER_TRANSFORM_10_CHROMA=/afs/l2f/home/jar/vamp/QM/10segsChroma.n3
+
+QM_SEGMENTER_TRANSFORM_5_CQT=/afs/l2f/home/jar/vamp/QM/5segsCQT.n3
+QM_SEGMENTER_TRANSFORM_7_CQT=/afs/l2f/home/jar/vamp/QM/7segsCQT.n3
+QM_SEGMENTER_TRANSFORM_10_CQT=/afs/l2f/home/jar/vamp/QM/10segsCQT.n3
+
+QM_SEGMENTER_TRANSFORM_5_MFCC=/afs/l2f/home/jar/vamp/QM/5segsMFCC.n3
+QM_SEGMENTER_TRANSFORM_7_MFCC=/afs/l2f/home/jar/vamp/QM/7segsMFCC.n3
+QM_SEGMENTER_TRANSFORM_10_MFCC=/afs/l2f/home/jar/vamp/QM/10segsMFCC.n3
+
+QM_SEGMENTER_TRANSFORM_5_UNKNOWN=/afs/l2f/home/jar/vamp/QM/5segs4410_16405.n3
+QM_SEGMENTER_TRANSFORM_7_UNKNOWN=/afs/l2f/home/jar/vamp/QM/7segs4410_16405.n3
+QM_SEGMENTER_TRANSFORM_10_UNKNOWN=/afs/l2f/home/jar/vamp/QM/10segs4410_16405.n3
+
+
+cp /afs/l2f/home/jar/Documents/SegmentersSC/QMoriginal/qm-vamp-plugins.so ~/vamp
+
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_5_CHROMA"
+./scriptPath "5CHROMA"
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_7_CHROMA"
+./scriptPath "7CHROMA"
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_10_CHROMA"
+./scriptPath "10CHROMA"
+
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_5_CQT"
+./scriptPath "5CQT"
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_7_CQT"
+./scriptPath "7CQT"
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_10_CQT"
+./scriptPath "10CQT"
+
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_5_MFCC"
+./scriptPath "5MFCC"
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_7_MFCC"
+./scriptPath "7MFCC"
+./scriptQMseg "$QM_SEGMENTER_TRANSFORM_10_MFCC"
+./scriptPath "10MFCC"
+
+cp /afs/l2f/home/jar/Documents/SegmentersSC/QMaltered/qm-vamp-plugins.so ~/vamp
+
+./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_5_UNKNOWN" "chroma"
+./scriptPath "5UNKNOWN"
+./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_7_UNKNOWN" "chroma"
+./scriptPath "7UNKNOWN"
+./scriptQMExtractAndSeg "$QM_SEGMENTER_TRANSFORM_10_UNKNOWN" "chroma"
+./scriptPath "10UNKNWON"

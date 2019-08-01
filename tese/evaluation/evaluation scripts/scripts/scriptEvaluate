@@ -1,0 +1,37 @@
+#!/bin/bash
+#script for evaluating algortihms' segmentations (currently: segmentino and qm_segmenter)
+
+echo Hello, world!
+
+SEGMENTINOFILESPATH=../../songs/algorithms_segmentation/segmentino/The_Beatles/
+QMSEGFILESPATH=../../songs/algorithms_segmentation/qm-segmenter/The_Beatles/
+GTFILESPATH=../../songs/annotations/TheBeatles/
+segmentinoFiles=(${SEGMENTINOFILESPATH}*)
+qmsegmenterFiles=(${QMSEGFILESPATH}*)
+gtFiles=(${GTFILESPATH}*)
+echo The Beatles!
+
+
+#11Abbey_Road
+for ((i=0; i<${#segmentinoFiles[@]}; i++));
+do
+    Segmentino_album=(${segmentinoFiles[$i]}/*)
+    QMsegmenter_album=(${qmsegmenterFiles[$i]}/*)
+    GT_album=(${gtFiles[$i]}/*)
+    for ((j=0; j<${#Segmentino_album[@]}; j++));
+    do
+        python3 ../core/main.py "${Segmentino_album[$j]}" "segmentino" "${GT_album[$j]}" "gt"
+        python3 ../core/main.py "${QMsegmenter_album[$j]}" "qm_segmenter" "${GT_album[$j]}" "gt"
+    done
+done
+
+echo "The Beatles, done!"
+
+#Aggregate results by segmenter
+
+echo Let\'s gather results!
+
+python3 ../core/gatherResults.py  "segmentino"
+python3 ../core/gatherResults.py  "qm_segmenter"
+
+echo Done!

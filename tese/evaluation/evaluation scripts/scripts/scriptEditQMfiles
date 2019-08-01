@@ -1,0 +1,99 @@
+#!/bin/bash
+
+echo Hello, worldzyyy!
+
+QMSEGFILESPATH_PPM=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/PleasePleaseMe/
+GTFILESPATH_PPM=../songs/annotations/TheBeatles/01Please_Please_Me/
+qmsegmenterFiles_PPM=(${QMSEGFILESPATH_PPM}*)
+gtFiles_PPM=(${GTFILESPATH_PPM}*)
+
+QMSEGFILESPATH_HDN=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AHardDaysNight/
+GTFILESPATH_HDN=../songs/annotations/TheBeatles/03A_Hard_Days_Night/
+qmsegmenterFiles_HDN=(${QMSEGFILESPATH_HDN}*)
+gtFiles_HDN=(${GTFILESPATH_HDN}*)
+
+
+QMSEGFILESPATH_BFS=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/BeatlesForSale/
+GTFILESPATH_BFS=../songs/annotations/TheBeatles/04Beatles_for_Sale/
+qmsegmenterFiles_BFS=(${QMSEGFILESPATH_BFS}*)
+gtFiles_BFS=(${GTFILESPATH_BFS}*)
+
+
+QMSEGFILESPATH_H=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Help/
+GTFILESPATH_H=../songs/annotations/TheBeatles/05Help/
+qmsegmenterFiles_H=(${QMSEGFILESPATH_H}*)
+gtFiles_H=(${GTFILESPATH_H}*)
+
+
+QMSEGFILESPATH_RS=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/RubberSoul/
+GTFILESPATH_RS=../songs/annotations/TheBeatles/06Rubber_Soul/
+qmsegmenterFiles_RS=(${QMSEGFILESPATH_RS}*)
+gtFiles_RS=(${GTFILESPATH_RS}*)
+
+
+QMSEGFILESPATH_R=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/Revolver/
+GTFILESPATH_R=../songs/annotations/TheBeatles/07Revolver/
+qmsegmenterFiles_R=(${QMSEGFILESPATH_R}*)
+gtFiles_R=(${GTFILESPATH_R}*)
+
+QMSEGFILESPATH_MMT=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/MagicalMisteryTour/
+GTFILESPATH_MMT=../songs/annotations/TheBeatles/09Magical_Mystery_Tour/
+qmsegmenterFiles_MMT=(${QMSEGFILESPATH_MMT}*)
+gtFiles_MMT=(${GTFILESPATH_MMT}*)
+
+QMSEGFILESPATH_AR=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/AbbeyRoad/
+GTFILESPATH_AR=../songs/annotations/TheBeatles/11Abbey_Road/
+qmsegmenterFiles_AR=(${QMSEGFILESPATH_AR}*)
+gtFiles_AR=(${GTFILESPATH_AR}*)
+
+QMSEGFILESPATH_LIB=../songs/algorithms_segmentation/qm-segmenter/The_Beatles/LetItBe/
+GTFILESPATH_LIB=../songs/annotations/TheBeatles/12Let_It_Be/
+qmsegmenterFiles_LIB=(${QMSEGFILESPATH_LIB}*)
+gtFiles_LIB=(${GTFILESPATH_LIB}*)
+
+
+
+for ((i=0; i<${#qmsegmenterFiles_AR[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_AR[$i]}"  "${gtFiles_AR[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_PPM[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_PPM[$i]}"  "${gtFiles_PPM[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_R[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_R[$i]}"  "${gtFiles_R[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_RS[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_RS[$i]}"  "${gtFiles_RS[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_MMT[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_MMT[$i]}"  "${gtFiles_MMT[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_LIB[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_LIB[$i]}"  "${gtFiles_LIB[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_H[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_H[$i]}"  "${gtFiles_H[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_BFS[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_BFS[$i]}"  "${gtFiles_BFS[$i]}" 
+done
+
+for ((i=0; i<${#qmsegmenterFiles_HDN[@]}; i++));
+do
+    python3 editQMfile.py "${qmsegmenterFiles_HDN[$i]}"  "${gtFiles_HDN[$i]}" 
+done

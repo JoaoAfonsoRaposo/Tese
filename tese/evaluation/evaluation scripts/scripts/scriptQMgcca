@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo Hello, world!
+
+
+BEATLES=$HOME/Music/audioFiles/The_Beatles/
+BEATLES_SEG=../../songs/algorithms_segmentation/qm-segmenter/The_Beatles/
+
+beatles_albums_segs=(${BEATLES_SEG}*)
+beatles_albums=(${BEATLES}*)
+
+# ARG5=${5:-4096}
+# echo "hopsize: " $ARG5
+
+for ((i=0; i<${#beatles_albums[@]}; i++));
+do
+    album=(${beatles_albums[$i]}/*)
+    for ((j=0; j<${#album[@]}; j++));
+    do
+        python3 ../featureExtractors/qm_extractFeatures.py "${album[$j]}" $3  1
+        python3 ../featureExtractors/qm_extractFeatures.py "${album[$j]}" $4  1
+#         python3 ../featureExtractors/qm_extractFeatures.py "${album[$j]}" $5  1
+        python3 ../featureExtractors/gcca.py $2 $3 $4
+        sonic-annotator -t $1 "${album[$j]}" -w csv --csv-force --csv-basedir ${beatles_albums_segs[$i]}
+    done
+done
+
+
+#ARG1: TRANSFORM
+#ARG2: GCCA FEATURES
+#ARG3: 1ST FEATURE
+#ARG4: 2ND FEATURE
+#ARG5: 3RD FEATURE
